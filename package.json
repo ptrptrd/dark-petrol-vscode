@@ -1,0 +1,21 @@
+{
+    "name": "darkturqoise",
+    "displayName": "darkturqoise",
+    "description": "Custom color theme for vscode revolving around the colour of dark turqoise",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.56.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Dark Turqoise",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Dark Turqoise-color-theme.json"
+            }
+        ]
+    }
+}
