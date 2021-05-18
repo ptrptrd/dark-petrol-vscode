@@ -55,7 +55,7 @@
 			"name": "Keyword",
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#F92672"
+				"foreground": "#5E8D87"
 			}
 		},
 		{
@@ -63,7 +63,7 @@
 			"scope": "storage",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#F92672"
+				"foreground": "#8abeb7"
 			}
 		},
 		{
@@ -111,7 +111,7 @@
 			"scope": "entity.name.tag",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#F92672"
+				"foreground": "#5e8d87"
 			}
 		},
 		{
@@ -175,12 +175,18 @@
 		}
 	],
 	"colors": {
-		"editor.background": "#272822",
+		"editor.background": "#18211F",
 		"editorCursor.foreground": "#F8F8F0",
 		"editor.foreground": "#F8F8F2",
-		"editorWhitespace.foreground": "#3B3A32",
-		"editor.lineHighlightBackground": "#3E3D32",
-		"editor.selectionBackground": "#49483E"
+		"editorWhitespace.foreground": "#18211F",
+		"editor.lineHighlightBackground": "#393f3e",
+		"editor.selectionBackground": "#393f3e",
+		"sideBar.background": "#18211F",
+		"sideBar.border": "#37554e",
+		"activityBar.activeBackground": "#37554e",
+		"activityBar.activeFocusBorder": "#37554e",
+		"activityBar.background": "#18211F",
+		"activityBar.border": "#37554e"
 	},
 	"name": "Dark Turquoise"
 }
