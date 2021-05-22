@@ -1,37 +1,31 @@
 {
 	"tokenColors": [
 		{
-			"settings": {
-				"background": "#272822",
-				"foreground": "#F8F8F2"
-			}
-		},
-		{
 			"name": "Comment",
 			"scope": "comment",
 			"settings": {
-				"foreground": "#75715E"
+				"foreground": "#536f6b"
 			}
 		},
 		{
 			"name": "String",
 			"scope": "string",
 			"settings": {
-				"foreground": "#E6DB74"
+				"foreground": "#eb983e"
 			}
 		},
 		{
 			"name": "Number",
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#AE81FF"
+				"foreground": "#eb983e"
 			}
 		},
 		{
 			"name": "Built-in constant",
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#AE81FF"
+				"foreground": "#cfe3e0"
 			}
 		},
 		{
@@ -41,21 +35,22 @@
 				"constant.other"
 			],
 			"settings": {
-				"foreground": "#AE81FF"
+				"foreground": "#eb983e"
 			}
 		},
 		{
 			"name": "Variable",
 			"scope": "variable",
 			"settings": {
-				"fontStyle": ""
+				"fontStyle": "",
+				"foreground": "#81a2be"
 			}
 		},
 		{
 			"name": "Keyword",
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#5E8D87"
+				"foreground": "#28786e"
 			}
 		},
 		{
@@ -63,15 +58,14 @@
 			"scope": "storage",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#8abeb7"
+				"foreground": "#cfe3e0"
 			}
 		},
 		{
 			"name": "Storage type",
 			"scope": "storage.type",
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#66D9EF"
+				"foreground": "#cfe3e0"
 			}
 		},
 		{
@@ -79,15 +73,14 @@
 			"scope": "entity.name.class",
 			"settings": {
 				"fontStyle": "underline",
-				"foreground": "#A6E22E"
+				"foreground": "#47c6b5"
 			}
 		},
 		{
 			"name": "Inherited class",
 			"scope": "entity.other.inherited-class",
 			"settings": {
-				"fontStyle": "italic underline",
-				"foreground": "#A6E22E"
+				"foreground": "#47c6b5"
 			}
 		},
 		{
@@ -95,22 +88,20 @@
 			"scope": "entity.name.function",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#A6E22E"
+				"foreground": "#47c6b5"
 			}
 		},
 		{
 			"name": "Function argument",
 			"scope": "variable.parameter",
 			"settings": {
-				"fontStyle": "italic",
-				"foreground": "#FD971F"
+				"foreground": "#cfe3e0"
 			}
 		},
 		{
 			"name": "Tag name",
 			"scope": "entity.name.tag",
 			"settings": {
-				"fontStyle": "",
 				"foreground": "#5e8d87"
 			}
 		},
@@ -119,7 +110,7 @@
 			"scope": "entity.other.attribute-name",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#A6E22E"
+				"foreground": "#cfe3e0"
 			}
 		},
 		{
@@ -145,7 +136,6 @@
 				"support.class"
 			],
 			"settings": {
-				"fontStyle": "italic",
 				"foreground": "#66D9EF"
 			}
 		},
@@ -160,26 +150,23 @@
 			"name": "Invalid",
 			"scope": "invalid",
 			"settings": {
-				"background": "#F92672",
 				"fontStyle": "",
-				"foreground": "#F8F8F0"
+				"foreground": "#cfe3e0"
 			}
 		},
 		{
 			"name": "Invalid deprecated",
 			"scope": "invalid.deprecated",
 			"settings": {
-				"background": "#AE81FF",
-				"foreground": "#F8F8F0"
+				"foreground": "#cfe3e0"
 			}
 		}
 	],
 	"colors": {
-		"editor.background": "#18211F",
+		"editor.background": "#18211f",
 		"editorCursor.foreground": "#F8F8F0",
-		"editor.foreground": "#F8F8F2",
+		"editor.foreground": "#cfe3e0",
 		"editorWhitespace.foreground": "#18211F",
-		"editor.lineHighlightBackground": "#393f3e",
 		"editor.selectionBackground": "#393f3e",
 		"sideBar.background": "#18211F",
 		"sideBar.border": "#37554e",
