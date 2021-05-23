@@ -11,21 +11,21 @@
 			"name": "String",
 			"scope": "string",
 			"settings": {
-				"foreground": "#eb983e"
+				"foreground": "#e6aa6a"
 			}
 		},
 		{
 			"name": "Number",
 			"scope": "constant.numeric",
 			"settings": {
-				"foreground": "#eb983e"
+				"foreground": "#a6c965"
 			}
 		},
 		{
 			"name": "Built-in constant",
 			"scope": "constant.language",
 			"settings": {
-				"foreground": "#cfe3e0"
+				"foreground": "#e5f0ee"
 			}
 		},
 		{
@@ -50,7 +50,7 @@
 			"name": "Keyword",
 			"scope": "keyword",
 			"settings": {
-				"foreground": "#28786e"
+				"foreground": "#e5f0ee"
 			}
 		},
 		{
@@ -58,14 +58,21 @@
 			"scope": "storage",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#cfe3e0"
+				"foreground": "#e5f0ee"
 			}
 		},
 		{
 			"name": "Storage type",
 			"scope": "storage.type",
 			"settings": {
-				"foreground": "#cfe3e0"
+				"foreground": "#e5f0ee"
+			}
+		},
+		{
+			"name": "Storage modifier",
+			"scope": "storage.modifier",
+			"settings": {
+				"foreground": "#81a2be"
 			}
 		},
 		{
@@ -95,7 +102,7 @@
 			"name": "Function argument",
 			"scope": "variable.parameter",
 			"settings": {
-				"foreground": "#cfe3e0"
+				"foreground": "#e5f0ee"
 			}
 		},
 		{
@@ -110,7 +117,7 @@
 			"scope": "entity.other.attribute-name",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#cfe3e0"
+				"foreground": "#e5f0ee"
 			}
 		},
 		{
@@ -151,21 +158,27 @@
 			"scope": "invalid",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#cfe3e0"
+				"foreground": "#e5f0ee"
 			}
 		},
 		{
 			"name": "Invalid deprecated",
 			"scope": "invalid.deprecated",
 			"settings": {
-				"foreground": "#cfe3e0"
+				"foreground": "#e5f0ee"
 			}
 		}
 	],
 	"colors": {
 		"editor.background": "#18211f",
+		"editorGroup.dropBackground": "#18211f",
+		"editorGroupHeader.noTabsBackground": "#18211f",
+		"editorGroupHeader.tabsBackground": "#18211f",
+		"tab.unfocusedActiveBackground": "#18211f",
+		"tab.inactiveBackground": "#18211f",
+		"tab.activeBorder": "#37554e",
 		"editorCursor.foreground": "#F8F8F0",
-		"editor.foreground": "#cfe3e0",
+		"editor.foreground": "#e5f0ee",
 		"editorWhitespace.foreground": "#18211F",
 		"editor.selectionBackground": "#393f3e",
 		"sideBar.background": "#18211F",
