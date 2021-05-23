@@ -42,8 +42,14 @@
 			"name": "Variable",
 			"scope": "variable",
 			"settings": {
-				"fontStyle": "",
-				"foreground": "#81a2be"
+				"foreground": "#e5f0ee"
+			}
+		},
+		{
+			"name": "Variable object property",
+			"scope": "variable.other.object.property",
+			"settings": {
+				"foreground": "#47c6b5"
 			}
 		},
 		{
@@ -54,10 +60,17 @@
 			}
 		},
 		{
+			"name": "Keyword type",
+			"scope": "keyword.type",
+			"settings": {
+				"foreground": "#8abeb7"
+			}
+		},
+		{
 			"name": "Keyword control",
 			"scope": "keyword.control",
 			"settings": {
-				"foreground": "#2b3e3b"
+				"foreground": "#28786e"
 			}
 		},
 		{
@@ -71,7 +84,7 @@
 			"name": "Keyword other using",
 			"scope": "keyword.other.using",
 			"settings": {
-				"foreground": "#c46969"
+				"foreground": "#cc6666"
 			}
 		},
 		{
@@ -93,7 +106,7 @@
 			"name": "Storage modifier",
 			"scope": "storage.modifier",
 			"settings": {
-				"foreground": "#81a2be"
+				"foreground": "#28786e"
 			}
 		},
 		{
