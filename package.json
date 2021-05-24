@@ -2,6 +2,7 @@
     "name": "darkturquoise",
     "displayName": "darkturquoise",
     "description": "Custom color theme for vscode revolving around the colour of dark turquoise",
+    "publisher": "twntyfive",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.56.0"
