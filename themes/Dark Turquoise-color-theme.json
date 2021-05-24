@@ -239,7 +239,10 @@
 		"terminal.ansiRed": "#cc6666",
 		"terminal.ansiWhite": "#707880",
 		"terminal.ansiYellow": "#d29656",
-		"terminal.background": "#18211f"
+		"terminal.background": "#18211f",
+		"statusBarItem.remoteBackground": "#283835",
+		"statusBar.background": "#283835",
+		"statusBar.debuggingBackground": "#eb983e",
 	},
 	"name": "Dark Turquoise"
 }
