@@ -181,25 +181,18 @@
 			}
 		},
 		{
-			"name": "Library variable",
-			"scope": "support.other.variable",
-			"settings": {
-				"fontStyle": ""
-			}
-		},
-		{
 			"name": "Invalid",
 			"scope": "invalid",
 			"settings": {
 				"fontStyle": "",
-				"foreground": "#b294bb"
+				"foreground": "#a54242"
 			}
 		},
 		{
 			"name": "Invalid deprecated",
 			"scope": "invalid.deprecated",
 			"settings": {
-				"foreground": "#e5f0ee"
+				"foreground": "#a54242"
 			}
 		}
 	],
@@ -212,7 +205,7 @@
 		"tab.inactiveBackground": "#18211f",
 		"tab.activeBorder": "#37554e",
 		"editorCursor.foreground": "#F8F8F0",
-		"editor.foreground": "#e5f0ee",
+		"editor.foreground": "#cfe3e0",
 		"editorWhitespace.foreground": "#18211F",
 		"editor.selectionBackground": "#393f3e",
 		"sideBar.background": "#18211F",
