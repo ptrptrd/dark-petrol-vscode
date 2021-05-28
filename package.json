@@ -3,6 +3,7 @@
     "displayName": "darkturquoise",
     "description": "Custom color theme for vscode revolving around the colour of dark turquoise",
     "publisher": "twntyfive",
+    "repository": "https://github.com/pp7rd/dark-turquoise.git",
     "version": "0.0.1",
     "engines": {
         "vscode": "^1.56.0"

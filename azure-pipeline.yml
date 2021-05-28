@@ -1,0 +1,14 @@
+jobs:
+- job: Package
+  displayName: Package
+  steps:
+  - script: 
+      npm install vsce --save-dev
+      vsce package
+
+- job: Publish 
+  displayName: Publish
+  steps:
+  - script: 
+      npm install vsce --save-dev
+      vsce publish
