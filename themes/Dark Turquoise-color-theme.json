@@ -208,6 +208,7 @@
 		"editor.foreground": "#cfe3e0",
 		"editorWhitespace.foreground": "#18211F",
 		"editor.selectionBackground": "#393f3e",
+		"editorIndentGuide.background": "#313233",
 		"sideBar.background": "#1b2220",
 		"sideBar.border": "#18211f",
 		"activityBar.activeFocusBorder": "#707880",
