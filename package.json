@@ -4,7 +4,7 @@
     "description": "Custom color theme for vscode revolving around the colour of dark turquoise",
     "publisher": "twntyfive",
     "repository": "https://github.com/pp7rd/dark-turquoise.git",
-    "version": "0.0.3-dev.1",
+    "version": "0.0.3",
     "devDependencies": {
         "vsce": "^1.88.0"
     },
