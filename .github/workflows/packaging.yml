@@ -4,23 +4,17 @@ on:
   push:
     branches:
       - main
-      - dev/*
 
 jobs:
   package:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v2
-      - name: Assign version for dev
-        if: contains(github.ref, 'dev')
-        run:
-          npm config set git-tag-version false
-          npm version prerelease --preid=dev
       - name: Assign version for main
         if: contains(github.ref, 'main')
         run:
           npm config set git-tag-version false
-          npm version prerelease --preid=alpha
+          npm version prerelease --preid=dev
       - name: Package VS code extension
         run: |
           npm install
