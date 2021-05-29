@@ -22,5 +22,8 @@
                 "path": "./themes/Dark Turquoise-color-theme.json"
             }
         ]
+    },
+    "scripts": {
+        "package": "vsce package"
     }
 }
