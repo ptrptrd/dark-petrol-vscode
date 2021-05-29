@@ -14,12 +14,12 @@ jobs:
       - name: Assign version for dev
         if: contains(github.ref, 'dev')
         run:
-          npm config set sign-git-tag false
+          npm config set git-tag-version false
           npm version prerelease --preid=dev
       - name: Assign version for main
         if: contains(github.ref, 'main')
         run:
-          npm config set sign-git-tag false
+          npm config set git-tag-version false
           npm version prerelease --preid=alpha
       - name: Package VS code extension
         run: |
