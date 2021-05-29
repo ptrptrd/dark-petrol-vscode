@@ -12,11 +12,11 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Assign version for dev
-        if: contains(github.ref, "dev")
+        if: contains(github.ref, 'dev')
         run: 
           npm version prerelease --preid=dev
       - name: Assign version for main
-        if: contains(github.ref, "main")
+        if: contains(github.ref, 'main')
         run: 
           npm version prerelease --preid=alpha
       - name: Package VS code extension
