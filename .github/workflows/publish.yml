@@ -38,4 +38,5 @@ jobs:
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
         run: 
+          npm install
           npm run publish
