@@ -1,0 +1,40 @@
+name: publish
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+jobs:
+  package:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v2
+      - name: Set env
+        run: echo ::set-env name=RELEASE_VERSION::$(echo ${GITHUB_REF:11})
+      - name: Assign version as in tag
+        run:
+          npm config set git-tag-version false
+          npm version $RELEASE_VERSION
+      - name: Package VS code extension
+        run: |
+          npm install
+          npm run package
+      - name: Archive vsix file
+        uses: actions/upload-artifact@v2
+        with:
+          name: darkturquiose-extension
+          path: ./*.vsix
+  publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Download vsix from package
+        uses: actions/download-artifact@v2
+        with:
+          name: darkturquiose-extension
+      - uses: actions/checkout@v2
+      - name: Publish to marketplace
+        env:
+          VSCE_PAT: ${{ secrets.VSCE_PAT }}
+        run: 
+          npm run publish
