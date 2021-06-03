@@ -26,6 +26,7 @@ jobs:
           name: darkturquiose-extension
           path: ./*.vsix
   publish:
+    needs: package
     runs-on: ubuntu-latest
     steps:
       - name: Download vsix from package
