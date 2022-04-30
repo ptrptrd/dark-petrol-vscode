@@ -1,9 +1,9 @@
 {
-    "name": "darkturquoise",
-    "displayName": "Dark Turquoise",
-    "description": "Custom color theme for vscode revolving around the colour of dark turquoise",
-    "publisher": "twntyfive",
-    "repository": "https://github.com/pp7rd/dark-turquoise.git",
+    "name": "darkpetrol",
+    "displayName": "Dark Petrol",
+    "description": "Custom color theme for vscode revolving around the colour of dark petrol",
+    "publisher": "pp7rd",
+    "repository": "https://github.com/pp7rd/dark-petrol-vscode.git",
     "version": "0.0.2-alpha.0",
     "devDependencies": {
         "vsce": "^1.88.0"
@@ -17,9 +17,9 @@
     "contributes": {
         "themes": [
             {
-                "label": "Dark Turquoise",
+                "label": "Dark Petrol",
                 "uiTheme": "vs-dark",
-                "path": "./themes/Dark Turquoise-color-theme.json"
+                "path": "./themes/Dark Petrol-color-theme.json"
             }
         ]
     },
