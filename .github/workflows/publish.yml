@@ -23,7 +23,7 @@ jobs:
       - name: Archive vsix file
         uses: actions/upload-artifact@v2
         with:
-          name: darkturquiose-extension
+          name: darkpetrol-extension
           path: ./*.vsix
   publish:
     runs-on: ubuntu-latest
@@ -31,7 +31,7 @@ jobs:
       - name: Download vsix from package
         uses: actions/download-artifact@v2
         with:
-          name: darkturquiose-extension
+          name: darkpetrol-extension
       - uses: actions/checkout@v2
       - name: Publish to marketplace
         env:
