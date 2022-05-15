@@ -23,5 +23,5 @@ jobs:
       - name: Archive vsix file
         uses: actions/upload-artifact@v2
         with:
-          name: darkturquiose-extension
+          name: darkpetrol-extension
           path: ./*.vsix

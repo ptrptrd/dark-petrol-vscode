@@ -1,3 +1,3 @@
-# Dark Turquoise
+# Dark Petrol
 
-Calmness of blue and balance of green mixed in a theme
+Collection of colors matching the dark petrol as backgroun
