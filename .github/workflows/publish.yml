@@ -3,7 +3,7 @@ name: publish
 on:
   push:
     tags:
-      - 'v*'
+      - '*'
 
 jobs:
   package:
@@ -11,7 +11,7 @@ jobs:
     steps:
       - uses: actions/checkout@v2
       - name: Set env
-        run: echo ::set-env name=RELEASE_VERSION::$(echo ${GITHUB_REF:11})
+        run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
       - name: Assign version as in tag
         run:
           npm config set git-tag-version false
@@ -26,6 +26,7 @@ jobs:
           name: darkpetrol-extension
           path: ./*.vsix
   publish:
+    needs: package
     runs-on: ubuntu-latest
     steps:
       - name: Download vsix from package
@@ -37,4 +38,5 @@ jobs:
         env:
           VSCE_PAT: ${{ secrets.VSCE_PAT }}
         run: 
+          npm install
           npm run publish
