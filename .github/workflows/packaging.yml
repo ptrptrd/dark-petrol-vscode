@@ -4,6 +4,7 @@ on:
   push:
     branches:
       - main
+      - release
 
 jobs:
   package:
@@ -16,11 +17,11 @@ jobs:
           npm config set git-tag-version false
           npm version prerelease --preid=dev
       - name: Package VS code extension
-        run: |
+        run:
           npm install
           npm run package
       - name: Archive vsix file
         uses: actions/upload-artifact@v2
         with:
-          name: darkturquiose-extension
+          name: darkpetrol-extension
           path: ./*.vsix
