@@ -4,7 +4,7 @@
     "description": "Custom color theme for vscode revolving around the colour of dark petrol",
     "publisher": "pp7rd",
     "repository": "https://github.com/pp7rd/dark-petrol-vscode.git",
-    "version": "0.0.3",
+    "version": "0.0.4",
     "devDependencies": {
         "@vscode/vsce": "^2.18.0"
     },
