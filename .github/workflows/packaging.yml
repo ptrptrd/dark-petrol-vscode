@@ -14,7 +14,6 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-          cache: yarn
       - name: Assign version for main
         if: contains(github.ref, 'main')
         run:
@@ -22,8 +21,7 @@ jobs:
           npm version prerelease --preid=dev
       - name: Package VS code extension
         run: |
-          yarn install --frozen-lockfile
-          yarn build
+          npm run package
       - name: Archive vsix file
         uses: actions/upload-artifact@v3
         with:
