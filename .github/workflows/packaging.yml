@@ -10,18 +10,21 @@ jobs:
   package:
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v2
+      - uses: actions/checkout@v3
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
       - name: Assign version for main
         if: contains(github.ref, 'main')
         run:
           npm config set git-tag-version false
           npm version prerelease --preid=dev
       - name: Package VS code extension
-        run:
-          npm install
+        run: |
+          npm i
           npm run package
       - name: Archive vsix file
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v3
         with:
           name: darkpetrol-extension
           path: ./*.vsix
