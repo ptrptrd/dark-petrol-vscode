@@ -10,15 +10,17 @@ jobs:
     runs-on: ubuntu-latest
     steps:
       - uses: actions/checkout@v3
-      - name: Set env
-        run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
-      - name: Assign version as in tag
+      - uses: actions/setup-node@v3
+        with:
+          node-version: 16
+      - name: Assign version for main
+        if: contains(github.ref, 'main')
         run:
           npm config set git-tag-version false
-          npm version $RELEASE_VERSION
+          npm version prerelease --preid=dev
       - name: Package VS code extension
         run: |
-          npm install
+          npm i
           npm run package
       - name: Archive vsix file
         uses: actions/upload-artifact@v3
@@ -34,9 +36,13 @@ jobs:
         with:
           name: darkpetrol-extension
       - uses: actions/checkout@v3
-      - name: Publish to marketplace
-        env:
-          VSCE_PAT: ${{ secrets.VSCE_PAT }}
-        run: 
-          npm install
-          npm run publish
+      - run: npm ci
+      - name: Publish to Open VSX Registry
+        uses: HaaLeo/publish-vscode-extension@v1
+        with:
+          pat: ${{ secrets.VSX_PAT }}
+      - name: Publish to Visual Studio Marketplace
+        uses: HaaLeo/publish-vscode-extension@v1
+        with:
+          pat: ${{ secrets.VSCE_PAT }}
+          registryUrl: https://marketplace.visualstudio.com
