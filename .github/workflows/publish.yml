@@ -13,11 +13,12 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           node-version: 16
-      - name: Assign version for main
-        if: contains(github.ref, 'main')
+      - name: Set env
+        run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
+      - name: Assign version as in tag
         run:
           npm config set git-tag-version false
-          npm version prerelease --preid=dev
+          npm version $RELEASE_VERSION
       - name: Package VS code extension
         run: |
           npm i
