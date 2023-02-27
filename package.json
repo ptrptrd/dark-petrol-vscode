@@ -6,10 +6,10 @@
     "repository": "https://github.com/pp7rd/dark-petrol-vscode.git",
     "version": "0.0.3",
     "devDependencies": {
-        "vsce": "^1.88.0"
+        "@vscode/vsce": "^2.18.0"
     },
     "engines": {
-        "@vscode/vsce": "^2.18.0"
+        "vscode": "^1.70.0"
     },
     "categories": [
         "Themes"
