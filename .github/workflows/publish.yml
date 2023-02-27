@@ -36,7 +36,7 @@ jobs:
         with:
           name: darkpetrol-extension
       - uses: actions/checkout@v3
-      - run: npm ci
+      - run: npm i
       - name: Publish to Open VSX Registry
         uses: HaaLeo/publish-vscode-extension@v1
         with:
