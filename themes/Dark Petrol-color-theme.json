@@ -145,7 +145,6 @@
 		"terminal.ansiYellow": "#eb983e",
 		"terminal.background": "#18211f",
 		"textLink.foreground": "#5f819d",
-		
 	},
 	/*
 	"semanticTokenColors": {
