@@ -21,6 +21,7 @@ jobs:
           npm version prerelease --preid=dev
       - name: Package VS code extension
         run: |
+          npm i
           npm run package
       - name: Archive vsix file
         uses: actions/upload-artifact@v3

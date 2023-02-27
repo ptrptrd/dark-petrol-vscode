@@ -9,7 +9,7 @@
         "vsce": "^1.88.0"
     },
     "engines": {
-        "vscode": "^1.56.0"
+        "@vscode/vsce": "^2.18.0"
     },
     "categories": [
         "Themes"
