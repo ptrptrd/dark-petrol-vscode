@@ -24,6 +24,28 @@
             }
         ]
     },
+    "release": {
+        "branches": ["main"],
+        "tagFormat": "${version}",
+        "plugins": [
+            "@semantic-release/commit-analyzer",
+            "@semantic-release/release-notes-generator",
+            "@semantic-release/npm",
+            "@semantic-release/github",
+            [
+                "@semantic-release/changelog",
+                {
+                "changelogFile": "CHANGELOG.md"
+                }
+            ],
+            [
+                "@semantic-release/git",
+                {
+                    "assets": ["CHANGELOG.md", "package.json"]
+                }
+            ]
+        ]
+    },
     "scripts": {
         "package": "vsce package -o ${npm_package_name}_${npm_package_version}.vsix",
         "publish": "vsce publish --yarn"
