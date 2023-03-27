@@ -3,7 +3,7 @@ name: Publish to Marketplace
 on:
   push:
     tags:
-      - '*'
+      - "*"
 
 jobs:
   package:
@@ -16,8 +16,7 @@ jobs:
       - name: Set env
         run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
       - name: Assign version as in tag
-        run:
-          npm config set git-tag-version false
+        run: npm config set git-tag-version false
           npm version $RELEASE_VERSION
       - name: Package VS code extension
         run: |

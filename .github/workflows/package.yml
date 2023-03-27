@@ -15,8 +15,7 @@ jobs:
           node-version: 16
       - name: Assign version for main
         if: contains(github.ref, 'main')
-        run:
-          npm config set git-tag-version false
+        run: npm config set git-tag-version false
           npm version prerelease --preid=dev
       - name: Package VS code extension
         run: |
