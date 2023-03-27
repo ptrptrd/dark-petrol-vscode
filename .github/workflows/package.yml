@@ -1,4 +1,4 @@
-name: packaging
+name: Package
 
 on:
   push:
