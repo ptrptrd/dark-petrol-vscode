@@ -1,3 +1,10 @@
+## [0.0.7](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.6...0.0.7) (2024-02-11)
+
+
+### Bug Fixes
+
+* **ci:** release on all tags ([#16](https://github.com/ptrptrd/dark-petrol-vscode/issues/16)) ([593d7c2](https://github.com/ptrptrd/dark-petrol-vscode/commit/593d7c264b853c67a742df06dfb8a2ec0e23ea05))
+
 ## [0.0.6](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.5...0.0.6) (2024-02-11)
 
 
