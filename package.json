@@ -58,9 +58,5 @@
         }
       ]
     ]
-  },
-  "scripts": {
-    "package": "vsce package -o ${npm_package_name}_${npm_package_version}.vsix",
-    "publish": "vsce publish --yarn"
   }
 }
