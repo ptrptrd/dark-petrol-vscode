@@ -8,6 +8,8 @@ on:
 jobs:
   package:
     runs-on: ubuntu-latest
+    outputs:
+      vsixPath: ${{ steps.package-vsix.outputs.vsixPath }}
     steps:
       - uses: actions/checkout@v3
       - uses: actions/setup-node@v3
@@ -18,15 +20,18 @@ jobs:
       - name: Assign version as in tag
         run: npm config set git-tag-version false
           npm version $RELEASE_VERSION
-      - name: Package VS code extension
-        run: |
-          npm i
-          npm run package
-      - name: Archive vsix file
-        uses: actions/upload-artifact@v3
+      - name: Package VSIX
+        id: package-vsix
+        uses: HaaLeo/publish-vscode-extension@v1
+        with:
+          pat: stub
+          dryRun: true
+      - name: Upload Extension Package as Artifact
+        uses: actions/upload-artifact@v2
         with:
           name: darkpetrol-extension
-          path: ./*.vsix
+          path: ${{ steps.package-vsix.outputs.vsixPath }}
+
   publish:
     needs: package
     runs-on: ubuntu-latest
@@ -41,8 +46,10 @@ jobs:
         uses: HaaLeo/publish-vscode-extension@v1
         with:
           pat: ${{ secrets.VSX_PAT }}
+          extensionFile: ${{ needs.package.outputs.vsixPath }}
       - name: Publish to Visual Studio Marketplace
         uses: HaaLeo/publish-vscode-extension@v1
         with:
           pat: ${{ secrets.VSCE_PAT }}
           registryUrl: https://marketplace.visualstudio.com
+          extensionFile: ${{ needs.package.outputs.vsixPath }}
