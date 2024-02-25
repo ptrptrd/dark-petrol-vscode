@@ -1,3 +1,10 @@
+## [0.0.17](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.16...0.0.17) (2024-02-25)
+
+
+### Bug Fixes
+
+* **ci:** use GITHUB OUTPUT ([#28](https://github.com/ptrptrd/dark-petrol-vscode/issues/28)) ([b72bd16](https://github.com/ptrptrd/dark-petrol-vscode/commit/b72bd167cf216b7aa5cfc1f827ec81f3fe2217d9))
+
 ## [0.0.16](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.15...0.0.16) (2024-02-25)
 
 
