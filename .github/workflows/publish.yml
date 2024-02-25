@@ -12,7 +12,7 @@ jobs:
     outputs:
       vsixPath: ${{ steps.package-vsix.outputs.vsixPath }}
     steps:
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
         with:
           fetch-depth: 0
       - name: Download artifacts
@@ -27,7 +27,7 @@ jobs:
           if [[ -f .NOVERSION ]]; then gh run cancel ${{ github.run_id }}; fi
           if [[ -f .NEWVERSION ]]; then echo "RELEASE_VERSION=$(cat .NEWVERSION | tr -d '[blank]')" >> $GITHUB_ENV; fi
       - name: Check out latest tag
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           ref: $RELEASE_VERSION   
       - uses: actions/setup-node@v3
@@ -57,7 +57,7 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: darkpetrol-extension
-      - uses: actions/checkout@v3
+      - uses: actions/checkout@v4
       - run: npm i
       - name: Publish to Open VSX Registry
         uses: HaaLeo/publish-vscode-extension@v1
