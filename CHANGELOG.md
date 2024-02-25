@@ -1,3 +1,10 @@
+## [0.0.14](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.13...0.0.14) (2024-02-25)
+
+
+### Bug Fixes
+
+* **ci:** try getting tags ([#25](https://github.com/ptrptrd/dark-petrol-vscode/issues/25)) ([4d2d6c8](https://github.com/ptrptrd/dark-petrol-vscode/commit/4d2d6c869ced2137a4d703bce040903a545c5ffa))
+
 ## [0.0.13](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.12...0.0.13) (2024-02-25)
 
 
