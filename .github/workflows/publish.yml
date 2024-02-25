@@ -59,8 +59,6 @@ jobs:
         uses: actions/download-artifact@v3
         with:
           name: darkpetrol-extension
-      - uses: actions/checkout@v4
-      - run: npm i
       - name: Publish to Open VSX Registry
         uses: HaaLeo/publish-vscode-extension@v1
         with:
