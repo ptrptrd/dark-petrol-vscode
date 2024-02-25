@@ -1,3 +1,10 @@
+## [0.0.18](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.17...0.0.18) (2024-02-25)
+
+
+### Bug Fixes
+
+* **ci:** use script ([#29](https://github.com/ptrptrd/dark-petrol-vscode/issues/29)) ([30f383a](https://github.com/ptrptrd/dark-petrol-vscode/commit/30f383aa4cff1d42fe6e6613982bad1f3f153cab))
+
 ## [0.0.17](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.16...0.0.17) (2024-02-25)
 
 
