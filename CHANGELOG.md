@@ -1,3 +1,10 @@
+## [0.0.16](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.15...0.0.16) (2024-02-25)
+
+
+### Bug Fixes
+
+* **ci:** add curly braces for variable ([#27](https://github.com/ptrptrd/dark-petrol-vscode/issues/27)) ([c08e27c](https://github.com/ptrptrd/dark-petrol-vscode/commit/c08e27c2242196d8ecd3bd58cb104ff247170ffc))
+
 ## [0.0.15](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.14...0.0.15) (2024-02-25)
 
 
