@@ -1,3 +1,10 @@
+## [0.0.11](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.10...0.0.11) (2024-02-25)
+
+
+### Bug Fixes
+
+* **ci:** refine script to get latest tag ([#21](https://github.com/ptrptrd/dark-petrol-vscode/issues/21)) ([cffb3ce](https://github.com/ptrptrd/dark-petrol-vscode/commit/cffb3cef5d2c4de629aaed5d08c4b5eb82d9dcb9))
+
 ## [0.0.10](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.9...0.0.10) (2024-02-25)
 
 
