@@ -1,3 +1,11 @@
+## [0.0.10](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.9...0.0.10) (2024-02-25)
+
+
+### Bug Fixes
+
+* **ci:** add script to trigger publish ([#19](https://github.com/ptrptrd/dark-petrol-vscode/issues/19)) ([6d8bf82](https://github.com/ptrptrd/dark-petrol-vscode/commit/6d8bf82ea2e1461e729ef01bd8354bc2e62f6cf8))
+* **ci:** add semantic release exec package ([#20](https://github.com/ptrptrd/dark-petrol-vscode/issues/20)) ([64850e3](https://github.com/ptrptrd/dark-petrol-vscode/commit/64850e362d34fccec4aa260f88bf416c93ddbf3a))
+
 ## [0.0.9](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.8...0.0.9) (2024-02-25)
 
 
