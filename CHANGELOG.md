@@ -1,3 +1,10 @@
+## [0.0.15](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.14...0.0.15) (2024-02-25)
+
+
+### Bug Fixes
+
+* **ci:** add quotes for GITHUB_ENV ([#26](https://github.com/ptrptrd/dark-petrol-vscode/issues/26)) ([c10138c](https://github.com/ptrptrd/dark-petrol-vscode/commit/c10138cde83994d40ecd40d7cd398ff5010cd4c3))
+
 ## [0.0.14](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.13...0.0.14) (2024-02-25)
 
 
