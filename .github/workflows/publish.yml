@@ -28,13 +28,10 @@ jobs:
           if [[ -f .NOVERSION ]]; then gh run cancel ${{ github.run_id }}; fi
           if [[ -f .NEWVERSION ]]; then echo "RELEASE_VERSION=$(cat .NEWVERSION | tr -d '[blank]')" >> "$GITHUB_OUTPUT"; fi
       - name: Check out latest tag
-        uses: actions/checkout@v4
         env:
           RELEASE_VERSION: ${{ steps.version.outputs.SELECTED_COLOR }}
-        with:
-          ref: $RELEASE_VERSION
-          fetch-depth: 0
-          filter: tree:0
+        run:
+          git checkout $RELEASE_VERSION
       - uses: actions/setup-node@v3
         with:
           node-version: 16
