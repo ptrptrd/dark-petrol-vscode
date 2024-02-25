@@ -1,9 +1,5 @@
 name: Publish to Marketplace
 
-on:
-  push:
-    tags:
-      - '**'
 
 jobs:
   package:
