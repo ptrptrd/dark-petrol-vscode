@@ -1,3 +1,10 @@
+## [0.0.12](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.11...0.0.12) (2024-02-25)
+
+
+### Bug Fixes
+
+* **ci:** add missing char ([#22](https://github.com/ptrptrd/dark-petrol-vscode/issues/22)) ([3a373a5](https://github.com/ptrptrd/dark-petrol-vscode/commit/3a373a5d8525a128925ccc68cca2515f8040ba29))
+
 ## [0.0.11](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.10...0.0.11) (2024-02-25)
 
 
