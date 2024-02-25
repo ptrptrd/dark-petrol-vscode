@@ -1,3 +1,10 @@
+## [0.0.9](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.8...0.0.9) (2024-02-25)
+
+
+### Bug Fixes
+
+* **ci:** change wildcard for tags push  ([#18](https://github.com/ptrptrd/dark-petrol-vscode/issues/18)) ([e28b0b8](https://github.com/ptrptrd/dark-petrol-vscode/commit/e28b0b8f722405cee65c38c97a5f3ab7ec0a74bd))
+
 ## [0.0.8](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.7...0.0.8) (2024-02-25)
 
 
