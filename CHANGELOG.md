@@ -1,3 +1,10 @@
+## [0.0.13](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.12...0.0.13) (2024-02-25)
+
+
+### Bug Fixes
+
+* adjust deprecated keys and add transparency ([#24](https://github.com/ptrptrd/dark-petrol-vscode/issues/24)) ([9adf664](https://github.com/ptrptrd/dark-petrol-vscode/commit/9adf664be7f04d827647d173c9147e6a2d76e547))
+
 ## [0.0.12](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.11...0.0.12) (2024-02-25)
 
 
