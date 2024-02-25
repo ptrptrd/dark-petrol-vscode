@@ -1,3 +1,10 @@
+## [0.0.8](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.7...0.0.8) (2024-02-25)
+
+
+### Bug Fixes
+
+* **ci:** use GH token ([#17](https://github.com/ptrptrd/dark-petrol-vscode/issues/17)) ([e327dac](https://github.com/ptrptrd/dark-petrol-vscode/commit/e327dac4593455589b07be7e7cb0dbd9ef94f118))
+
 ## [0.0.7](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.6...0.0.7) (2024-02-11)
 
 
