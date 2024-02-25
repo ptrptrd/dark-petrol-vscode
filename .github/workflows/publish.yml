@@ -12,14 +12,32 @@ jobs:
     outputs:
       vsixPath: ${{ steps.package-vsix.outputs.vsixPath }}
     steps:
-      - uses: actions/checkout@v3
+      - name: Download artifacts
+        uses: actions/download-artifact@v4
+        with:
+          name: version
+          run-id: ${{ github.event.workflow_run.id }}
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+      - name: Check if new version was released 
+        run: |
+          ls -la
+          if [[ -f .NOVERSION ]]; then exit 1; fi
+      - name: Get latest tag
+        id: latestrelease
+        run: |
+          echo "::set-output name=releasetag::$(git describe --abbrev=0 --tags)"
+      - name: tagcheckout
+        uses: actions/checkout@v3
+        with:
+          ref: ${{ steps.latestrelease.outputs.releasetag }}         
       - uses: actions/setup-node@v3
         with:
           node-version: 16
       - name: Set env
         run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
       - name: Assign version as in tag
-        run: npm config set git-tag-version false
+        run: |
+          npm config set git-tag-version false
           npm version $RELEASE_VERSION
       - name: Package VSIX
         id: package-vsix

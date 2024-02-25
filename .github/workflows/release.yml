@@ -25,3 +25,11 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
         run: npx semantic-release
+      - name: Check if actually released
+        run: test -e .NEWVERSION || (echo $(git describe --abbrev=0 --tags) > .NEWVERSION && touch .NOVERSION)
+      - name: Upload version artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: version
+          path: |
+            .*VERSION

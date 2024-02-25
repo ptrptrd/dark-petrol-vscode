@@ -56,6 +56,12 @@
             "package.json"
           ]
         }
+      ],
+      [
+        "@semantic-release/exec",
+        {
+          "verifyReleaseCmd": "echo ${nextRelease.version} > .NEWVERSION"
+        }
       ]
     ]
   }
