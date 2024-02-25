@@ -25,7 +25,7 @@ jobs:
         run: |
           ls -la
           if [[ -f .NOVERSION ]]; then gh run cancel ${{ github.run_id }}; fi
-          if [[ -f .NEWVERSION ]]; then echo "RELEASE_VERSION=$(cat .NEWVERSION | tr -d '[blank]')" >> $GITHUB_ENV; fi
+          if [[ -f .NEWVERSION ]]; then echo "RELEASE_VERSION=$(cat .NEWVERSION | tr -d '[blank]')" >> "$GITHUB_ENV"; fi
       - name: Check out latest tag
         uses: actions/checkout@v4
         with:
