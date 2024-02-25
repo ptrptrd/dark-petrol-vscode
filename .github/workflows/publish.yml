@@ -29,7 +29,7 @@ jobs:
       - name: Check out latest tag
         uses: actions/checkout@v4
         with:
-          ref: $RELEASE_VERSION   
+          ref: ${{ RELEASE_VERSION }}
           fetch-depth: 0
           filter: tree:0
       - uses: actions/setup-node@v3
