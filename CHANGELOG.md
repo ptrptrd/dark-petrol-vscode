@@ -1,3 +1,10 @@
+## [0.0.19](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.18...0.0.19) (2024-02-25)
+
+
+### Bug Fixes
+
+* **ci:** remove checkout when publishing ([#31](https://github.com/ptrptrd/dark-petrol-vscode/issues/31)) ([6970f6c](https://github.com/ptrptrd/dark-petrol-vscode/commit/6970f6c7c046811517e2be0b155ed43a188fb562))
+
 ## [0.0.18](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.17...0.0.18) (2024-02-25)
 
 
