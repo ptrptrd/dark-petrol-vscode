@@ -6,12 +6,17 @@ on:
       - '**'
     tags-ignore:
       - '**'
+  workflow_call:
+    outputs:
+      vsixpath:
+        description: "Path of the generated VSIX"
+        value: ${{ jobs.package.outputs.vsixpath }}
 
 jobs:
   package:
     runs-on: ubuntu-latest
     outputs:
-      vsixPath: ${{ steps.package-vsix.outputs.vsixPath }}
+      vsixpath: ${{ steps.package-vsix.outputs.vsixpath }}
     steps:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
@@ -32,4 +37,4 @@ jobs:
         uses: actions/upload-artifact@v2
         with:
           name: darkpetrol-extension
-          path: ${{ steps.package-vsix.outputs.vsixPath }}
+          path: ${{ steps.package-vsix.outputs.vsixpath }}
