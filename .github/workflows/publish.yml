@@ -8,48 +8,8 @@ on:
 
 jobs:
   package:
-    runs-on: ubuntu-latest
-    outputs:
-      vsixPath: ${{ steps.package-vsix.outputs.vsixPath }}
-    steps:
-      - uses: actions/checkout@v4
-        with:
-          fetch-depth: 0
-      - name: Download artifacts
-        uses: actions/download-artifact@v4
-        with:
-          name: version
-          run-id: ${{ github.event.workflow_run.id }}
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-      - name: Check if new version was released 
-        id: version
-        run: |
-          ls -la
-          if [[ -f .NOVERSION ]]; then gh run cancel ${{ github.run_id }}; fi
-          if [[ -f .NEWVERSION ]]; then echo "RELEASE_VERSION=$(cat .NEWVERSION | tr -d '[blank]')" >> "$GITHUB_OUTPUT"; fi
-      - name: Check out latest tag
-        env:
-          RELEASE_VERSION: ${{ steps.version.outputs.RELEASE_VERSION }}
-        run:
-          git checkout $RELEASE_VERSION
-      - uses: actions/setup-node@v3
-        with:
-          node-version: 16
-      - name: Assign version as in tag
-        run: |
-          npm config set git-tag-version false
-          npm version $RELEASE_VERSION
-      - name: Package VSIX
-        id: package-vsix
-        uses: HaaLeo/publish-vscode-extension@v1
-        with:
-          pat: stub
-          dryRun: true
-      - name: Upload Extension Package as Artifact
-        uses: actions/upload-artifact@v2
-        with:
-          name: darkpetrol-extension
-          path: ${{ steps.package-vsix.outputs.vsixPath }}
+    uses: ./.github/workflows/package.yml
+    secrets: inherit
 
   publish:
     needs: package
@@ -63,10 +23,10 @@ jobs:
         uses: HaaLeo/publish-vscode-extension@v1
         with:
           pat: ${{ secrets.VSX_PAT }}
-          extensionFile: ${{ needs.package.outputs.vsixPath }}
+          extensionFile: ${{ needs.package.outputs.vsixpath }}
       - name: Publish to Visual Studio Marketplace
         uses: HaaLeo/publish-vscode-extension@v1
         with:
           pat: ${{ secrets.VSCE_PAT }}
           registryUrl: https://marketplace.visualstudio.com
-          extensionFile: ${{ needs.package.outputs.vsixPath }}
+          extensionFile: ${{ needs.package.outputs.vsixpath }}
