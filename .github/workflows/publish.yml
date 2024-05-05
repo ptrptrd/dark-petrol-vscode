@@ -11,10 +11,21 @@ jobs:
     uses: ./.github/workflows/package.yml
     secrets: inherit
 
-  publish:
+  publish-vs:
     needs: package
     runs-on: ubuntu-latest
     steps:
+      - name: Publish to Visual Studio Marketplace
+        uses: HaaLeo/publish-vscode-extension@v1
+        with:
+          pat: ${{ secrets.VSCE_PAT }}
+          registryUrl: https://marketplace.visualstudio.com
+          extensionFile: ${{ needs.package.outputs.vsixpath }}
+  
+  publish-vsx: 
+    needs: package
+    runs-on: ubuntu-latest
+    steps: 
       - name: Download vsix from package
         uses: actions/download-artifact@v3
         with:
@@ -23,10 +34,4 @@ jobs:
         uses: HaaLeo/publish-vscode-extension@v1
         with:
           pat: ${{ secrets.VSX_PAT }}
-          extensionFile: ${{ needs.package.outputs.vsixpath }}
-      - name: Publish to Visual Studio Marketplace
-        uses: HaaLeo/publish-vscode-extension@v1
-        with:
-          pat: ${{ secrets.VSCE_PAT }}
-          registryUrl: https://marketplace.visualstudio.com
           extensionFile: ${{ needs.package.outputs.vsixpath }}
