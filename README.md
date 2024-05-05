@@ -1,7 +1,10 @@
-<div style="text-align:center"><img src="images/dark-petrol-vsce.png" width=300px/></div>
+<h3 align="center">
+	<img src="images/dark-petrol-vsce.png" width="300" alt="Logo"/><br/>
+</h3>
 
-<img alt="Visual Studio Marketplace Version" src="https://img.shields.io/visual-studio-marketplace/v/pp7rd.darkpetrol?style=flat-square&logo=visual-studio-code&label=Marketplace&color=28786E">
-
+<p align="center">
+    <img alt="Visual Studio Marketplace Version" src="https://img.shields.io/visual-studio-marketplace/v/pp7rd.darkpetrol?style=flat-square&logo=visual-studio-code&label=Marketplace&color=28786E">
+</p>
 
 # Dark Petrol for VS Code
 
