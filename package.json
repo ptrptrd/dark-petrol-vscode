@@ -6,6 +6,10 @@
   "repository": "https://github.com/ptrptrd/dark-petrol-vscode.git",
   "version": "0.0.19",
   "icon": "images/dark-petrol-vsce.png",
+  "dependencies": {
+    "@types/chroma-js": "^2.0.0",
+    "chroma-js": "^2.1.0"
+  },
   "devDependencies": {
     "@commitlint/cli": "^17.5.0",
     "@commitlint/config-conventional": "^17.4.4",
