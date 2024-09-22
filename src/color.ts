@@ -1,22 +1,35 @@
 import * as chroma from 'chroma-js'
 
-export class Color {
+type ColorSet = {
+  foreground: chroma.Color; 
+  background: chroma.Color;
+}
 
-    constructor(private color: chroma.Color) {}
+class UiColor {
 
-    brighten(value: number = 10){
-        return new Color(this.color).brighten(value)
-    }
+  active: ColorSet;
+  inactive: ColorSet; 
+  hovered: ColorSet;
 
-    darken(value: number = 10){
-        return new Color(this.color).darken(value)
-    }
+  constructor(background: chroma.Color, foreground: chroma.Color) {
+    this.active = {
+      foreground: foreground, 
+      background: background
+    };
 
-    rgb() {
-        return this.color.rgb()
-    }
+    this.inactive = {
+      foreground: foreground.darken(10), 
+      background: background.darken(10)
+    };
 
-    rgba() {
-        return this.color.rgba()
-    }
+    this.hovered = {
+      foreground: foreground.alpha(0.5), 
+      background: background.alpha(0.5)
+    };
+  }
+}
+
+export {
+  ColorSet, 
+  UiColor
 }

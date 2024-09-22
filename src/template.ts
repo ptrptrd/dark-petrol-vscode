@@ -4,22 +4,22 @@
     "arrow": "#ff0000",
     "bracket": "#ff0000",
     "builtinConstant": "#8ABEB7",
-    "class": colors.ui.panel.bg.hex(),
+    "class": ui.panel.primary.active.background.hex(),
     "clsParameter": "#ff0000",
-    "comment": colors.ui.border.hex(),
-    "controlKeyword": colors.ui.panel.bg.hex(),
-    "decorator": colors.ui.panel.bg.hex(),
+    "comment": ui.border.primary.hex(),
+    "controlKeyword": ui.panel.primary.active.background.hex(),
+    "decorator": ui.panel.primary.active.background.hex(),
     "delegate": "#ff0000",
-    "enum": colors.ui.panel.bg.hex(),
-    "enumMember": colors.ui.panel.bg.hex(),
+    "enum": ui.panel.primary.active.background.hex(),
+    "enumMember": ui.panel.primary.active.background.hex(),
     "event": "#CC6666",
     "field": "#C5C8C6",
-    "function": colors.ui.panel.bg.hex(),
-    "interface": colors.ui.panel.bg.hex(),
+    "function": ui.panel.primary.active.background.hex(),
+    "interface": ui.panel.primary.active.background.hex(),
     "intrinsic": "#ff0000",
     "keyword": "#5F819D",
-    "label": colors.ui.border.hex(),
-    "macro": colors.ui.border.hex(),
+    "label": ui.border.primary.hex(),
+    "macro": ui.border.primary.hex(),
     "magicFunction": "#ff0000",
     "markupAttribute": "#ff0000",
     "markupComment": "#ff0000",
@@ -27,20 +27,20 @@
     "markupElement": "#FF0000",
     "markupOperator": "#ff0000",
     "markupTagDelimiter": "#ff0000",
-    "method": colors.ui.panel.bg.hex(),
+    "method": ui.panel.primary.active.background.hex(),
     "module": "#5F819D",
     "namespace": "#C5C8C6",
     "number": "#85678F",
-    "operator": colors.ui.panel.bg.hex(),
+    "operator": ui.panel.primary.active.background.hex(),
     "operatorOverloaded": "#ff0000",
     "parameter": "#C5C8C6",
-    "plainKeyword": colors.ui.panel.bg.hex(),
+    "plainKeyword": ui.panel.primary.active.background.hex(),
     "property": "#C5C8C6",
-    "regexp": colors.ui.panel.bg.hex(),
-    "string": colors.ui.panel.bg.hex(),
+    "regexp": ui.panel.primary.active.background.hex(),
+    "string": ui.panel.primary.active.background.hex(),
     "struct": "#B294BB",
-    "type": colors.ui.panel.bg.hex(),
-    "typeParameter": colors.ui.panel.bg.hex(),
+    "type": ui.panel.primary.active.background.hex(),
+    "typeParameter": ui.panel.primary.active.background.hex(),
     "variable": "#5F819D",
 },*/
 
@@ -56,7 +56,7 @@
 //         "name": "Class name",
 //         "scope": "entity.name.class",
 //         "settings": {
-//           "foreground": colors.ui.panel.bg.hex()
+//           "foreground": ui.panel.primary.active.background.hex()
 //         }
 //       },
 //       {
@@ -67,7 +67,7 @@
 //           "punctuation.definition.tag"
 //         ],
 //         "settings": {
-//           "foreground": colors.ui.border.hex()
+//           "foreground": ui.border.primary.hex()
 //         }
 //       },
 //       {
@@ -103,7 +103,7 @@
 //         "scope": "entity.name.function",
 //         "settings": {
 //           "fontStyle": "",
-//           "foreground": colors.ui.panel.bg.hex()
+//           "foreground": ui.panel.primary.active.background.hex()
 //         }
 //       },
 //       {
@@ -111,14 +111,14 @@
 //         "scope": "entity.name.function.js",
 //         "settings": {
 //           "fontStyle": "",
-//           "foreground": colors.ui.panel.bg.hex()
+//           "foreground": ui.panel.primary.active.background.hex()
 //         }
 //       },
 //       {
 //         "name": "Inherited class",
 //         "scope": "entity.other.inherited-class",
 //         "settings": {
-//           "foreground": colors.ui.panel.bg.hex()
+//           "foreground": ui.panel.primary.active.background.hex()
 //         }
 //       },
 //       {
@@ -140,7 +140,7 @@
 //         "name": "JSON String",
 //         "scope": "meta.structure.dictionary.json string.quoted.double.json",
 //         "settings": {
-//           "foreground": colors.ui.panel.bg.hex()
+//           "foreground": ui.panel.primary.active.background.hex()
 //         }
 //       },
 //       {
@@ -161,7 +161,7 @@
 //         "name": "Keyword control",
 //         "scope": "keyword.control",
 //         "settings": {
-//           "foreground": colors.ui.panel.bg.hex()
+//           "foreground": ui.panel.primary.active.background.hex()
 //         }
 //       },
 //       {
@@ -196,14 +196,14 @@
 //         "name": "Keyword other using",
 //         "scope": "keyword.other.using",
 //         "settings": {
-//           "foreground": colors.ui.panel.fg.hex()
+//           "foreground": ui.panel.primary.active.foreground.hex()
 //         }
 //       },
 //       {
 //         "name": "Keyword type",
 //         "scope": "keyword.type",
 //         "settings": {
-//           "foreground": colors.ui.panel.bg.hex()
+//           "foreground": ui.panel.primary.active.background.hex()
 //         }
 //       },
 //       {
@@ -258,7 +258,7 @@
 //         "name": "Number",
 //         "scope": "constant.numeric",
 //         "settings": {
-//           "foreground": colors.ui.panel.bg.hex()
+//           "foreground": ui.panel.primary.active.background.hex()
 //         }
 //       },
 //       {
@@ -272,7 +272,7 @@
 //         "name": "Punctuation",
 //         "scope": "punctuation",
 //         "settings": {
-//           "foreground": colors.ui.panel.bg.hex()
+//           "foreground": ui.panel.primary.active.background.hex()
 //         }
 //       },
 //       {
@@ -288,14 +288,14 @@
 //         "scope": "storage",
 //         "settings": {
 //           "fontStyle": "",
-//           "foreground": colors.ui.panel.bg.hex()
+//           "foreground": ui.panel.primary.active.background.hex()
 //         }
 //       },
 //       {
 //         "name": "Storage modifier",
 //         "scope": "storage.modifier",
 //         "settings": {
-//           "foreground": colors.ui.panel.bg.hex()
+//           "foreground": ui.panel.primary.active.background.hex()
 //         }
 //       },
 //       {
@@ -316,7 +316,7 @@
 //         "name": "String - yaml",
 //         "scope": "string.unquoted.plain.out.yaml",
 //         "settings": {
-//           "foreground": colors.ui.panel.bg.hex()
+//           "foreground": ui.panel.primary.active.background.hex()
 //         }
 //       },
 //       {
@@ -344,7 +344,7 @@
 //         "name": "Tag attribute - css",
 //         "scope": "entity.other.attribute-name.class.css",
 //         "settings": {
-//           "foreground": colors.ui.panel.bg.hex()
+//           "foreground": ui.panel.primary.active.background.hex()
 //         }
 //       },
 //       {
@@ -365,7 +365,7 @@
 //         "name": "Tag name - css",
 //         "scope": "entity.name.tag.css",
 //         "settings": {
-//           "foreground": colors.ui.panel.bg.hex()
+//           "foreground": ui.panel.primary.active.background.hex()
 //         }
 //       },
 //       {
@@ -386,14 +386,14 @@
 //         "name": "This self",
 //         "scope": "variable.language",
 //         "settings": {
-//           "foreground": colors.ui.panel.bg.hex()
+//           "foreground": ui.panel.primary.active.background.hex()
 //         }
 //       },
 //       {
 //         "name": "Type",
 //         "scope": "entity.name.type",
 //         "settings": {
-//           "foreground": colors.ui.panel.bg.hex()
+//           "foreground": ui.panel.primary.active.background.hex()
 //         }
 //       },
 //       {
@@ -421,14 +421,14 @@
 //         "name": "Variable object property",
 //         "scope": "variable.object.property",
 //         "settings": {
-//           "foreground": colors.ui.panel.bg.hex()
+//           "foreground": ui.panel.primary.active.background.hex()
 //         }
 //       },
 //       {
 //         "name": "Variable object property - javascript",
 //         "scope": "variable.other.property",
 //         "settings": {
-//           "foreground": colors.ui.panel.bg.hex()
+//           "foreground": ui.panel.primary.active.background.hex()
 //         }
 //       },
 //       {
@@ -461,7 +461,7 @@
 //       }
 //     ]
 
-import colors from './colors';
+import { base, fg, bg, ui, syntax} from './colors';
 
 export default () => {
   return {
@@ -469,148 +469,148 @@ export default () => {
   "type": "dark",
   "semanticHighlighting": true,
   "colors": {
-      "activityBar.activeFocusBorder": colors.ui.panel.bg.hex(),
-      "activityBar.background": colors.ui.panel.bg.hex(),
-      "activityBar.border": colors.ui.border.hex(),
-      "activityBar.foreground": colors.ui.panel.fg.hex(),
-      "activityBarBadge.background": colors.ui.panel.bg.hex(),
-      "activityBarBadge.foreground": colors.ui.panel.fg.hex(),
-      "badge.background": colors.ui.panel.bg.hex(),
-      "button.background": colors.ui.panel.bg.hex(),
-      "debugToolBar.background": colors.ui.panel.bg.hex(),
-      "descriptionForeground": colors.ui.panel.fg.hex(),
-      "diffEditor.insertedTextBackground": colors.ui.panel.bg.hex(),
-      "dropdown.background": colors.ui.panel.bg.hex(),
-      "dropdown.listBackground": colors.ui.panel.bg.hex(),
-      "editor.background": colors.ui.panel.bg.hex(),
-      "editor.foreground": colors.ui.panel.fg.hex(),
-      "editor.findMatchBackground": colors.ui.panel.bg.hex(),
-      "editor.findMatchBorder": colors.ui.border.hex(),
-      "editor.selectionBackground": colors.ui.panel.bg.hex(),
-      "editor.selectionHighlightBackground": colors.ui.panel.bg.hex(),
-      "editor.selectionHighlightBorder": colors.ui.border.hex(),
-      "editor.wordHighlightBackground": colors.ui.panel.bg.hex(),
-      "editor.wordHighlightBorder": colors.ui.border.hex(),
-      "editor.wordHighlightStrongBackground": colors.ui.panel.bg.hex(),
-      "editor.wordHighlightStrongBorder": colors.ui.border.hex(),
-      "editor.findMatchHighlightBackground": colors.ui.panel.bg.hex(),
-      "editorBracketHighlight.foreground1": colors.ui.panel.bg.hex(),
-      "editorBracketHighlight.foreground2": colors.ui.panel.bg.hex(),
-      "editorBracketHighlight.foreground3": colors.ui.panel.bg.hex(),
-      "editorCursor.foreground": colors.ui.panel.fg.hex(),
-      "editorError.foreground": colors.ui.error.fg.hex(),
-      "editorGroup.dropBackground": colors.ui.panel.bg.hex(),
-      "editorGroup.border": colors.ui.border.hex(),
-      "editorGroup.emptyBackground": colors.ui.panel.bg.hex(),
-      "editorGroupHeader.noTabsBackground": colors.ui.panel.bg.hex(),
-      "editorGroupHeader.tabsBackground": colors.ui.panel.bg.hex(),
-      "editorGutter.addedBackground": colors.ui.panel.bg.hex(),
-      "editorGutter.deletedBackground": colors.ui.error.bg.hex(),
-      "editorGutter.modifiedBackground": colors.ui.panel.bg.hex(),
-      "editorHoverWidget.background": colors.ui.panel.bg.hex(),
-      "editorHoverWidget.border": colors.ui.border.hex(),
-      "editorHoverWidget.foreground": colors.ui.panel.fg.hex(),
-      "editorInlayHint.background": colors.ui.panel.bg.hex(),
-      "editorInlayHint.foreground": colors.ui.panel.fg.hex(),
-      "editorWidget.foreground": colors.ui.panel.fg.hex(),
-      "editorIndentGuide.activeBackground1": colors.ui.panel.bg.hex(),
-      "editorIndentGuide.background1": colors.ui.panel.bg.hex(),
-      "editorWhitespace.foreground": colors.ui.panel.fg.hex(),
-      "extensionBadge.remoteBackground": colors.ui.panel.bg.hex(),
-      "extensionBadge.remoteForeground": colors.ui.panel.fg.hex(),
-      "extensionButton.prominentBackground": colors.ui.panel.bg.hex(),
-      "extensionButton.prominentForeground": colors.ui.panel.fg.hex(),
-      "extensionButton.prominentHoverBackground": colors.ui.panel.bg.hex(),
-      "extensionIcon.preReleaseForeground": colors.ui.panel.fg.hex(),
-      "extensionIcon.starForeground": colors.ui.panel.fg.hex(),
-      "extensionIcon.verifiedForeground": colors.ui.panel.fg.hex(),
-      "focusBorder": colors.ui.border.hex(),
-      "gitDecoration.addedResourceForeground": colors.ui.panel.fg.hex(),
-      "gitDecoration.conflictingResourceForeground": colors.ui.panel.fg.hex(),
-      "gitDecoration.deletedResourceForeground": colors.ui.error.fg.hex(),
-      "gitDecoration.ignoredResourceForeground": colors.ui.panel.fg.hex(),
-      "gitDecoration.modifiedResourceForeground": colors.ui.panel.fg.hex(),
-      "gitDecoration.renamedResourceForeground": colors.ui.panel.fg.hex(),
-      "gitDecoration.stageDeletedResourceForeground": colors.ui.panel.fg.hex(),
-      "gitDecoration.stageModifiedResourceForeground": colors.ui.panel.fg.hex(),
-      "gitDecoration.submoduleResourceForeground": colors.ui.info.fg.hex(),
-      "gitDecoration.untrackedResourceForeground": colors.ui.info.fg.hex(),
-      "input.background": colors.ui.panel.bg.hex(),
-      "input.foreground": colors.ui.panel.fg.hex(),
-      "inputValidation.errorBackground": colors.ui.error.bg.hex(),
-      "inputValidation.errorBorder": colors.ui.error.bg.hex(),
-      "inputValidation.warningBackground": colors.ui.warning.bg.hex(),
-      "inputValidation.warningBorder": colors.ui.warning.bg.hex(),
-      "list.activeSelectionBackground": colors.ui.panel.bg.hex(),
-      "list.activeSelectionForeground": colors.ui.panel.fg.hex(),
-      "list.hoverBackground": colors.ui.panel.active.bg.hex(),
-      "list.hoverForeground": colors.ui.panel.active.fg.hex(),
-      "list.inactiveSelectionBackground": colors.ui.panel.bg.hex(),
-      "list.inactiveSelectionForeground": colors.ui.panel.fg.hex(),
-      "list.warningForeground": colors.ui.warning.fg.hex(),
-      "minimapGutter.addedBackground": colors.ui.panel.bg.hex(),
-      "minimapGutter.deletedBackground": colors.ui.error.bg.hex(),
-      "minimapGutter.modifiedBackground": colors.ui.panel.bg.hex(),
-      "notifications.foreground": colors.ui.panel.fg.hex(),
-      "panel.background": colors.ui.panel.bg.hex(),
-      "panelInput.border": colors.ui.panel.bg.hex(),
-      "panelTitle.activeBorder": colors.ui.border.hex(),
-      "panelTitle.activeForeground": colors.ui.panel.fg.hex(),
-      "panelTitle.inactiveForeground": colors.ui.panel.fg.hex(),
-      "peekView.border": colors.ui.border.hex(),
-      "peekViewEditor.background": colors.ui.panel.bg.hex(),
-      "peekViewEditorGutter.background": colors.ui.panel.bg.hex(),
-      "peekViewResult.background": colors.ui.panel.bg.hex(),
-      "peekViewResult.selectionBackground": colors.ui.panel.bg.hex(),
-      "peekViewResult.lineForeground": colors.ui.panel.fg.hex(),
-      "peekViewResult.matchHighlightBackground": colors.ui.panel.bg.hex(),
-      "scrollbarSlider.activeBackground": colors.ui.panel.active.bg.hex(),
-      "scrollbarSlider.background": colors.ui.panel.bg.hex(),
-      "scrollbarSlider.hoverBackground": colors.ui.panel.active.bg.hex(),
-      "settings.focusedRowBackground": colors.ui.panel.bg.hex(),
-      "sideBar.background": colors.ui.panel.bg.hex(),
-      "sideBar.border": colors.ui.border.hex(),
-      "sideBar.foreground": colors.ui.panel.fg.hex(),
-      "sideBarSectionHeader.background": colors.ui.panel.bg.hex(),
-      "sideBarSectionHeader.foreground": colors.ui.panel.fg.hex(),
-      "statusBar.background": colors.ui.panel.bg.hex(),
-      "statusBar.debuggingBackground": colors.ui.panel.bg.hex(),
-      "statusBar.debuggingBorder": colors.ui.border.hex(),
-      "statusBar.debuggingForeground": colors.ui.panel.bg.hex(),
-      "statusBar.foreground": colors.ui.panel.fg.hex(),
-      "statusBar.focusBorder": colors.ui.border.hex(),
-      "statusBar.noFolderForeground": colors.ui.panel.fg.hex(),
-      "statusBar.noFolderBackground": colors.ui.panel.bg.hex(),
-      "statusBarItem.remoteBackground": colors.ui.panel.bg.hex(),
-      "statusBarItem.remoteForeground": colors.ui.panel.fg.hex(),
-      "statusBarItem.warningBackground": colors.ui.panel.bg.hex(),
-      "statusBarItem.warningForeground": colors.ui.panel.fg.hex(),
-      "tab.activeBackground": colors.ui.panel.bg.hex(),
-      "tab.activeBorderTop": colors.ui.border.hex(),
-      "tab.activeForeground": colors.ui.panel.fg.hex(),
-      "tab.hoverBorder": colors.ui.border.hex(),
-      "tab.inactiveBackground": colors.ui.panel.bg.hex(),
-      "tab.inactiveForeground": colors.ui.panel.fg.hex(),
-      "tab.unfocusedActiveBackground": colors.ui.panel.bg.hex(),
-      "tab.unfocusedActiveForeground": colors.ui.panel.fg.hex(),
-      "terminal.ansiBlack": colors.base.black.hex(),
-      "terminal.ansiBlue": colors.base.blue.hex(),
-      "terminal.ansiBrightBlack": colors.base.blackBright.hex(),
-      "terminal.ansiBrightBlue": colors.base.blueBright.hex(),
-      "terminal.ansiBrightCyan": colors.base.cyanBright.hex(),
-      "terminal.ansiBrightGreen": colors.base.greenBright.hex(),
-      "terminal.ansiBrightMagenta": colors.base.magentaBright.hex(),
-      "terminal.ansiBrightRed": colors.base.redBright.hex(),
-      "terminal.ansiBrightWhite": colors.base.whiteBright.hex(),
-      "terminal.ansiBrightYellow": colors.base.yellowBright.hex(),
-      "terminal.ansiCyan": colors.base.cyan.hex(),
-      "terminal.ansiGreen": colors.base.green.hex(),
-      "terminal.ansiMagenta": colors.base.magenta.hex(),
-      "terminal.ansiRed": colors.base.red.hex(),
-      "terminal.ansiWhite": colors.base.white.hex(),
-      "terminal.ansiYellow": colors.base.yellow.hex(),
-      "terminal.background": colors.ui.panel.bg.hex(),
-      "textLink.foreground": colors.ui.panel.bg.hex()
+      "activityBar.activeFocusBorder": ui.border.primary.hex(),
+      "activityBar.background": ui.panel.primary.active.background.hex(),
+      "activityBar.border.primary": ui.border.primary.hex(),
+      "activityBar.foreground": ui.panel.primary.active.foreground.hex(),
+      "activityBarBadge.background": ui.panel.primary.active.background.hex(),
+      "activityBarBadge.foreground": ui.panel.primary.active.foreground.hex(),
+      "badge.background": ui.panel.primary.active.background.hex(),
+      "button.background": ui.panel.primary.active.background.hex(),
+      "debugToolBar.background": ui.panel.primary.active.background.hex(),
+      "descriptionForeground": ui.panel.primary.active.foreground.hex(),
+      "diffEditor.insertedTextBackground": ui.panel.primary.active.background.hex(),
+      "dropdown.background": ui.panel.primary.active.background.hex(),
+      "dropdown.listBackground": ui.panel.primary.active.background.hex(),
+      "editor.background": ui.panel.primary.active.background.hex(),
+      "editor.foreground": ui.panel.primary.active.foreground.hex(),
+      "editor.findMatchBackground": ui.panel.primary.active.background.hex(),
+      "editor.findMatchBorder": ui.border.primary.hex(),
+      "editor.selectionBackground": ui.panel.primary.active.background.hex(),
+      "editor.selectionHighlightBackground": ui.panel.primary.active.background.hex(),
+      "editor.selectionHighlightBorder": ui.border.primary.hex(),
+      "editor.wordHighlightBackground": ui.panel.primary.active.background.hex(),
+      "editor.wordHighlightBorder": ui.border.primary.hex(),
+      "editor.wordHighlightStrongBackground": ui.panel.primary.active.background.hex(),
+      "editor.wordHighlightStrongBorder": ui.border.primary.hex(),
+      "editor.findMatchHighlightBackground": ui.panel.primary.active.background.hex(),
+      "editorBracketHighlight.foreground1": ui.panel.primary.active.background.hex(),
+      "editorBracketHighlight.foreground2": ui.panel.primary.active.background.hex(),
+      "editorBracketHighlight.foreground3": ui.panel.primary.active.background.hex(),
+      "editorCursor.foreground": ui.panel.primary.active.foreground.hex(),
+      "editorError.foreground": ui.message.error.active.foreground.hex(),
+      "editorGroup.dropBackground": ui.panel.primary.active.background.hex(),
+      "editorGroup.border.primary": ui.border.primary.hex(),
+      "editorGroup.emptyBackground": ui.panel.primary.active.background.hex(),
+      "editorGroupHeader.noTabsBackground": ui.panel.primary.active.background.hex(),
+      "editorGroupHeader.tabsBackground": ui.panel.primary.active.background.hex(),
+      "editorGutter.addedBackground": ui.panel.primary.active.background.hex(),
+      "editorGutter.deletedBackground": ui.message.error.active.background.hex(),
+      "editorGutter.modifiedBackground": ui.panel.primary.active.background.hex(),
+      "editorHoverWidget.background": ui.panel.primary.active.background.hex(),
+      "editorHoverWidget.border.primary": ui.border.primary.hex(),
+      "editorHoverWidget.foreground": ui.panel.primary.active.foreground.hex(),
+      "editorInlayHint.background": ui.panel.primary.active.background.hex(),
+      "editorInlayHint.foreground": ui.panel.primary.active.foreground.hex(),
+      "editorWidget.foreground": ui.panel.primary.active.foreground.hex(),
+      "editorIndentGuide.activeBackground1": ui.panel.primary.active.background.hex(),
+      "editorIndentGuide.background1": ui.panel.primary.active.background.hex(),
+      "editorWhitespace.foreground": ui.panel.primary.active.foreground.hex(),
+      "extensionBadge.remoteBackground": ui.panel.primary.active.background.hex(),
+      "extensionBadge.remoteForeground": ui.panel.primary.active.foreground.hex(),
+      "extensionButton.prominentBackground": ui.panel.primary.active.background.hex(),
+      "extensionButton.prominentForeground": ui.panel.primary.active.foreground.hex(),
+      "extensionButton.prominentHoverBackground": ui.panel.primary.active.background.hex(),
+      "extensionIcon.preReleaseForeground": ui.panel.primary.active.foreground.hex(),
+      "extensionIcon.starForeground": ui.panel.primary.active.foreground.hex(),
+      "extensionIcon.verifiedForeground": ui.panel.primary.active.foreground.hex(),
+      "focusBorder": ui.border.primary.hex(),
+      "gitDecoration.addedResourceForeground": ui.panel.primary.active.foreground.hex(),
+      "gitDecoration.conflictingResourceForeground": ui.panel.primary.active.foreground.hex(),
+      "gitDecoration.deletedResourceForeground": ui.message.error.active.foreground.hex(),
+      "gitDecoration.ignoredResourceForeground": ui.panel.primary.active.foreground.hex(),
+      "gitDecoration.modifiedResourceForeground": ui.panel.primary.active.foreground.hex(),
+      "gitDecoration.renamedResourceForeground": ui.panel.primary.active.foreground.hex(),
+      "gitDecoration.stageDeletedResourceForeground": ui.panel.primary.active.foreground.hex(),
+      "gitDecoration.stageModifiedResourceForeground": ui.panel.primary.active.foreground.hex(),
+      "gitDecoration.submoduleResourceForeground": ui.message.info.active.foreground.hex(),
+      "gitDecoration.untrackedResourceForeground": ui.message.info.active.foreground.hex(),
+      "input.background": ui.panel.primary.active.background.hex(),
+      "input.foreground": ui.panel.primary.active.foreground.hex(),
+      "inputValidation.errorBackground": ui.message.error.active.background.hex(),
+      "inputValidation.errorBorder": ui.message.error.active.background.hex(),
+      "inputValidation.warningBackground": ui.message.warning.active.background.hex(),
+      "inputValidation.warningBorder": ui.message.warning.active.background.hex(),
+      "list.activeSelectionBackground": ui.panel.primary.active.background.hex(),
+      "list.activeSelectionForeground": ui.panel.primary.active.foreground.hex(),
+      "list.hoverBackground": ui.panel.primary.active.background.hex(),
+      "list.hoverForeground": ui.panel.primary.active.foreground.hex(),
+      "list.inactiveSelectionBackground": ui.panel.primary.active.background.hex(),
+      "list.inactiveSelectionForeground": ui.panel.primary.active.foreground.hex(),
+      "list.warningForeground": ui.message.warning.active.foreground.hex(),
+      "minimapGutter.addedBackground": ui.panel.primary.active.background.hex(),
+      "minimapGutter.deletedBackground": ui.message.error.active.background.hex(),
+      "minimapGutter.modifiedBackground": ui.panel.primary.active.background.hex(),
+      "notifications.foreground": ui.panel.primary.active.foreground.hex(),
+      "panel.background": ui.panel.primary.active.background.hex(),
+      "panelInput.border.primary": ui.panel.primary.active.background.hex(),
+      "panelTitle.activeBorder": ui.border.primary.hex(),
+      "panelTitle.activeForeground": ui.panel.primary.active.foreground.hex(),
+      "panelTitle.inactiveForeground": ui.panel.primary.active.foreground.hex(),
+      "peekView.border.primary": ui.border.primary.hex(),
+      "peekViewEditor.background": ui.panel.primary.active.background.hex(),
+      "peekViewEditorGutter.background": ui.panel.primary.active.background.hex(),
+      "peekViewResult.background": ui.panel.primary.active.background.hex(),
+      "peekViewResult.selectionBackground": ui.panel.primary.active.background.hex(),
+      "peekViewResult.lineForeground": ui.panel.primary.active.foreground.hex(),
+      "peekViewResult.matchHighlightBackground": ui.panel.primary.active.background.hex(),
+      "scrollbarSlider.activeBackground": ui.panel.primary.active.background.hex(),
+      "scrollbarSlider.background": ui.panel.primary.active.background.hex(),
+      "scrollbarSlider.hoverBackground": ui.panel.primary.active.background.hex(),
+      "settings.focusedRowBackground": ui.panel.primary.active.background.hex(),
+      "sideBar.background": ui.panel.primary.active.background.hex(),
+      "sideBar.border.primary": ui.border.primary.hex(),
+      "sideBar.foreground": ui.panel.primary.active.foreground.hex(),
+      "sideBarSectionHeader.background": ui.panel.primary.active.background.hex(),
+      "sideBarSectionHeader.foreground": ui.panel.primary.active.foreground.hex(),
+      "statusBar.background": ui.panel.primary.active.background.hex(),
+      "statusBar.debuggingBackground": ui.panel.primary.active.background.hex(),
+      "statusBar.debuggingBorder": ui.border.primary.hex(),
+      "statusBar.debuggingForeground": ui.panel.primary.active.background.hex(),
+      "statusBar.foreground": ui.panel.primary.active.foreground.hex(),
+      "statusBar.focusBorder": ui.border.primary.hex(),
+      "statusBar.noFolderForeground": ui.panel.primary.active.foreground.hex(),
+      "statusBar.noFolderBackground": ui.panel.primary.active.background.hex(),
+      "statusBarItem.remoteBackground": ui.panel.primary.active.background.hex(),
+      "statusBarItem.remoteForeground": ui.panel.primary.active.foreground.hex(),
+      "statusBarItem.warningBackground": ui.panel.primary.active.background.hex(),
+      "statusBarItem.warningForeground": ui.panel.primary.active.foreground.hex(),
+      "tab.activeBackground": ui.panel.primary.active.background.hex(),
+      "tab.activeBorderTop": ui.border.primary.hex(),
+      "tab.activeForeground": ui.panel.primary.active.foreground.hex(),
+      "tab.hoverBorder": ui.border.primary.hex(),
+      "tab.inactiveBackground": ui.panel.primary.active.background.hex(),
+      "tab.inactiveForeground": ui.panel.primary.active.foreground.hex(),
+      "tab.unfocusedActiveBackground": ui.panel.primary.active.background.hex(),
+      "tab.unfocusedActiveForeground": ui.panel.primary.active.foreground.hex(),
+      "terminal.ansiBlack": base.black.hex(),
+      "terminal.ansiBlue": base.blue.hex(),
+      "terminal.ansiBrightBlack": base.blackBright.hex(),
+      "terminal.ansiBrightBlue": base.blueBright.hex(),
+      "terminal.ansiBrightCyan": base.cyanBright.hex(),
+      "terminal.ansiBrightGreen": base.greenBright.hex(),
+      "terminal.ansiBrightMagenta": base.magentaBright.hex(),
+      "terminal.ansiBrightRed": base.redBright.hex(),
+      "terminal.ansiBrightWhite": base.whiteBright.hex(),
+      "terminal.ansiBrightYellow": base.yellowBright.hex(),
+      "terminal.ansiCyan": base.cyan.hex(),
+      "terminal.ansiGreen": base.green.hex(),
+      "terminal.ansiMagenta": base.magenta.hex(),
+      "terminal.ansiRed": base.red.hex(),
+      "terminal.ansiWhite": base.white.hex(),
+      "terminal.ansiYellow": base.yellow.hex(),
+      "terminal.background": ui.panel.primary.active.background.hex(),
+      "textLink.foreground": ui.panel.primary.active.background.hex()
     },
   }
 }
