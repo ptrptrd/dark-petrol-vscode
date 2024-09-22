@@ -1,31 +1,31 @@
-import * as chroma from 'chroma-js'
+import chroma from 'chroma-js'
 
 // 16 Base Color 
 const base = {
     // Dark Color
-    black           : chroma('2B3E3B'),
-    red             : chroma('A54242'),
-    green           : chroma('28786E'),
-    yellow          : chroma('EB983E'),
-    blue            : chroma('5F819D'),
-    magenta         : chroma('85678F'),
-    cyan            : chroma('5E8D87'),
-    white           : chroma('C5C8C6'),
+    black           : chroma(0x2B3E3B),
+    red             : chroma(0xA54242),
+    green           : chroma(0x28786E),
+    yellow          : chroma(0xEB983E),
+    blue            : chroma(0x5F819D),
+    magenta         : chroma(0x85678F),
+    cyan            : chroma(0x5E8D87),
+    white           : chroma(0xC5C8C6),
 
     // Bright Color
-    blackBright     : chroma('536F6B'),
-    redBright       : chroma('CC6666'),
-    greenBright     : chroma('47C6B5'),
-    yellowBright    : chroma('D29656'),
-    blueBright      : chroma('5F819D'),
-    magentaBright   : chroma('85678F'),
-    cyanBright      : chroma('8ABEB7'),
-    whiteBright     : chroma('CFE3E0'),
+    blackBright     : chroma(0x536F6B),
+    redBright       : chroma(0xCC6666),
+    greenBright     : chroma(0x47C6B5),
+    yellowBright    : chroma(0xD29656),
+    blueBright      : chroma(0x5F819D),
+    magentaBright   : chroma(0x85678F),
+    cyanBright      : chroma(0x8ABEB7),
+    whiteBright     : chroma(0xCFE3E0),
 }
 
 // Back- and Foreground
-const fg = chroma('C5C8C6')
-const bg = chroma('18211F')
+const fg = chroma(0xC5C8C6)
+const bg = chroma(0x18211F)
 
 //// FOR UI ELEMENTS
 const ui = {
