@@ -31,29 +31,30 @@ const bg = chroma(0x18211F)
 //// FOR UI ELEMENTS
 const ui = {
   panel: {
-    primary: new UiColor(bg, fg),
-    secondary: new UiColor(bg.darken(50), fg.darken(50)),
-    tertiary: new UiColor(bg.darken(100), fg.darken(100))
+    primary: new UiColor(bg, fg, fg),
+    secondary: new UiColor(bg.darken(0.25), fg.darken(0.25), fg.darken(0.25)),
+    tertiary: new UiColor(bg.darken(0.25), fg.darken(0.25), fg.darken(0.25))
   },
   bar: {
-    primary: new UiColor(base.black, base.white),
-    secondary: new UiColor(base.blackBright, base.white),
-    tertiary: new UiColor(base.cyan, base.white)
+    primary: new UiColor(base.black, base.white, base.white),
+    secondary: new UiColor(base.blackBright, base.white, base.white),
+    tertiary: new UiColor(base.cyan, base.white, base.white),
   },
   dialog: {
-    first: new UiColor(bg, fg),
-    second: new UiColor(base.black, base.white),
-    third: new UiColor(base.cyan, base.white)
+    first: new UiColor(bg, fg, fg),
+    second: new UiColor(base.black, base.white, base.white),
+    third: new UiColor(base.cyan, base.white, base.white)
   },
   input: {
-    button: new UiColor(bg, fg),
-    text: new UiColor(base.black, base.white),
+    button: new UiColor(base.green, fg, fg),
+    checkbox: new UiColor(base.blue, fg, fg),
+    text: new UiColor(base.black, base.white, base.white),
   },
   git: {
-    added: new UiColor(base.black.brighten(50), base.blueBright),
-    modified: new UiColor(base.black.brighten(50), base.greenBright),
-    deleted: new UiColor(base.black.brighten(50), base.redBright),
-    untracked: new UiColor(base.black.brighten(50), base.whiteBright),
+    added: new UiColor(base.black.brighten(50), base.blueBright, base.blueBright),
+    modified: new UiColor(base.black.brighten(50), base.greenBright, base.greenBright),
+    deleted: new UiColor(base.black.brighten(50), base.redBright, base.redBright),
+    untracked: new UiColor(base.black.brighten(50), base.whiteBright, base.whiteBright),
   },
   border: {
     primary: fg, 
@@ -61,6 +62,7 @@ const ui = {
     tertiary: fg.darken(100)
   },
   message: {
+    success: new UiColor(base.green, base.white),
     info: new UiColor(base.blue, base.white),
     warning: new UiColor(base.yellow, base.white),
     error: new UiColor(base.red, base.white),
