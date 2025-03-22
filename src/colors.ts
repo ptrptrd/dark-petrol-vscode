@@ -65,7 +65,7 @@ const ui = {
   message: {
     success: new UiColor(base.green, base.white),
     info: new UiColor(base.blue, base.white),
-    warning: new UiColor(base.yellow, base.white),
+    warning: new UiColor(base.yellowBright, base.white),
     error: new UiColor(base.red, base.white),
   }
 }
