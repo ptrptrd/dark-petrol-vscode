@@ -54,6 +54,7 @@ const ui = {
     added: new UiColor(base.black.brighten(50), base.blueBright, base.blueBright),
     modified: new UiColor(base.black.brighten(50), base.greenBright, base.greenBright),
     deleted: new UiColor(base.black.brighten(50), base.redBright, base.redBright),
+    conflicted: new UiColor(base.black.brighten(50), base.yellowBright, base.yellow),
     untracked: new UiColor(base.black.brighten(50), base.whiteBright, base.whiteBright),
   },
   border: {
