@@ -1,5 +1,6 @@
 import { base, fg, bg, ui, syntax} from './colors';
 import { semanticTokenColors } from './templates/semanticTokenColors';
+import { textmateTokenColors } from './templates/textmateTokenColors';
 
 export default () => {
   return {
@@ -7,6 +8,7 @@ export default () => {
     "type": "dark",
     "semanticHighlighting": true,
     "semanticTokenColors": semanticTokenColors,
+    "tokenColors": textmateTokenColors,
     "colors": {
       // Contrast colors
       "contrastActiveBorder"    : ui.border.primary.hex(),
