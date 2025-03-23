@@ -1,10 +1,12 @@
 import { base, fg, bg, ui, syntax} from './colors';
+import { semanticTokenColors } from './templates/semanticTokenColors';
 
 export default () => {
   return {
     "name": "Dark Petrol - Dev",
     "type": "dark",
     "semanticHighlighting": true,
+    "semanticTokenColors": semanticTokenColors,
     "colors": {
       // Contrast colors
       "contrastActiveBorder"    : ui.border.primary.hex(),
