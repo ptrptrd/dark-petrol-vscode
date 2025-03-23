@@ -5,14 +5,14 @@ const textmateTokenColors = [
     "name": "Built-in constant",
     "scope": "constant.language",
     "settings": {
-      "foreground": "#8abeb7"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Class name",
     "scope": "entity.name.class",
     "settings": {
-      "foreground": "#47c6b5"
+      "foreground": base.red.hex()
     }
   },
   {
@@ -23,35 +23,35 @@ const textmateTokenColors = [
       "punctuation.definition.tag"
     ],
     "settings": {
-      "foreground": "#536f6b"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Comment - javascript",
     "scope": ["comment.line.double-slash.js"],
     "settings": {
-      "foreground": "#707880"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Enum",
     "scope": ["entity.name.type.enum", "entity.name.variable.enum-member"],
     "settings": {
-      "foreground": "#C5C8C6"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Function argument",
     "scope": ["entity.name.variable.parameter", "variable.parameter.cpp"],
     "settings": {
-      "foreground": "#C5C8C6"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Field",
     "scope": "entity.name.variable.field",
     "settings": {
-      "foreground": "#C5C8C6"
+      "foreground": base.red.hex()
     }
   },
   {
@@ -59,7 +59,7 @@ const textmateTokenColors = [
     "scope": "entity.name.function",
     "settings": {
       "fontStyle": "",
-      "foreground": "#47c6b5"
+      "foreground": base.red.hex()
     }
   },
   {
@@ -67,14 +67,14 @@ const textmateTokenColors = [
     "scope": "entity.name.function.js",
     "settings": {
       "fontStyle": "",
-      "foreground": "#81A2BE"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Inherited class",
     "scope": "entity.other.inherited-class",
     "settings": {
-      "foreground": "#47c6b5"
+      "foreground": base.red.hex()
     }
   },
   {
@@ -82,98 +82,98 @@ const textmateTokenColors = [
     "scope": "invalid",
     "settings": {
       "fontStyle": "",
-      "foreground": "#a54242"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Invalid deprecated",
     "scope": "invalid.deprecated",
     "settings": {
-      "foreground": "#a54242"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "JSON String",
     "scope": "meta.structure.dictionary.json string.quoted.double.json",
     "settings": {
-      "foreground": "#CFE3E0"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Keyword",
     "scope": "keyword",
     "settings": {
-      "foreground": "#C5C8C6"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Keyword",
     "scope": "keyword.other.class",
     "settings": {
-      "foreground": "#5F819D"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Keyword control",
     "scope": "keyword.control",
     "settings": {
-      "foreground": "#28786e"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Keyword control from",
     "scope": "keyword.control.from",
     "settings": {
-      "foreground": "#81a2be"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Keyword control import",
     "scope": "keyword.control.import",
     "settings": {
-      "foreground": "#81a2be"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Keyword other",
     "scope": "keyword.other",
     "settings": {
-      "foreground": "#81a2be"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Keyword other unit",
     "scope": "keyword.other.unit",
     "settings": {
-      "foreground": "#C5C8C6"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Keyword other using",
     "scope": "keyword.other.using",
     "settings": {
-      "foreground": "#cc6666"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Keyword type",
     "scope": "keyword.type",
     "settings": {
-      "foreground": "#81A2BE"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Library class/type",
     "scope": ["support.type", "support.class"],
     "settings": {
-      "foreground": "#5F819D"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Library class/type - css",
     "scope": ["support.type.property-name.css"],
     "settings": {
-      "foreground": "#5E8D87"
+      "foreground": base.red.hex()
     }
   },
   {
@@ -181,7 +181,7 @@ const textmateTokenColors = [
     "scope": "support.constant",
     "settings": {
       "fontStyle": "",
-      "foreground": "#5F819D"
+      "foreground": base.red.hex()
     }
   },
   {
@@ -192,7 +192,7 @@ const textmateTokenColors = [
     ],
     "settings": {
       "fontStyle": "",
-      "foreground": "#C5C8C6"
+      "foreground": base.red.hex()
     }
   },
   {
@@ -200,35 +200,35 @@ const textmateTokenColors = [
     "scope": "support.function",
     "settings": {
       "fontStyle": "",
-      "foreground": "#5F819D"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Meta",
     "scope": "meta",
     "settings": {
-      "foreground": "#C5C8C6"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Number",
     "scope": "constant.numeric",
     "settings": {
-      "foreground": "#D29656"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Property",
     "scope": "entity.name.variable.property",
     "settings": {
-      "foreground": "#C5C8C6"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Punctuation",
     "scope": "punctuation",
     "settings": {
-      "foreground": "#CFE3E0"
+      "foreground": base.red.hex()
     }
   },
   {
@@ -236,7 +236,7 @@ const textmateTokenColors = [
     "scope": "source",
     "settings": {
       "fontStyle": "",
-      "foreground": "#C5C8C6"
+      "foreground": base.red.hex()
     }
   },
   {
@@ -244,175 +244,175 @@ const textmateTokenColors = [
     "scope": "storage",
     "settings": {
       "fontStyle": "",
-      "foreground": "#CFE3E0"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Storage modifier",
     "scope": "storage.modifier",
     "settings": {
-      "foreground": "#47C6B5"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Storage type",
     "scope": "storage.type",
     "settings": {
-      "foreground": "#8abeb7"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "String",
     "scope": "string",
     "settings": {
-      "foreground": "#e6aa6a"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "String - yaml",
     "scope": "string.unquoted.plain.out.yaml",
     "settings": {
-      "foreground": "#CFE3E0"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Symbol",
     "scope": "meta.symbol",
     "settings": {
-      "foreground": "#C5C8C6"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Tag attribute",
     "scope": "entity.other.attribute-name",
     "settings": {
-      "foreground": "#C5C8C6"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Tag attribute",
     "scope": "entity.other.attribute-name.html",
     "settings": {
-      "foreground": "#5E8D87"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Tag attribute - css",
     "scope": "entity.other.attribute-name.class.css",
     "settings": {
-      "foreground": "#81A2BE"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Tag attribute id - css",
     "scope": "entity.other.attribute-name.id.css",
     "settings": {
-      "foreground": "#B294BB"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Tag name",
     "scope": "entity.name.tag",
     "settings": {
-      "foreground": "#5e8d87"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Tag name - css",
     "scope": "entity.name.tag.css",
     "settings": {
-      "foreground": "#47C6B5"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Tag name - YAML",
     "scope": "entity.name.tag",
     "settings": {
-      "foreground": "#5F819D"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Text",
     "scope": "text",
     "settings": {
-      "foreground": "#C5C8C6"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "This self",
     "scope": "variable.language",
     "settings": {
-      "foreground": "#81A2BE"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Type",
     "scope": "entity.name.type",
     "settings": {
-      "foreground": "#81A2BE"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "User-defined constant",
     "scope": ["constant.character", "constant.other"],
     "settings": {
-      "foreground": "#eb983e"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Variable",
     "scope": "variable",
     "settings": {
-      "foreground": "#C5C8C6"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Variable local",
     "scope": "entity.name.variable.local",
     "settings": {
-      "foreground": "#C5C8C6"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Variable object property",
     "scope": "variable.object.property",
     "settings": {
-      "foreground": "#47c6b5"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Variable object property - javascript",
     "scope": "variable.other.property",
     "settings": {
-      "foreground": "#47c6b5"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Variable other constant",
     "scope": "variable.other.constant",
     "settings": {
-      "foreground": "#C5C8C6"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Variable other object",
     "scope": "variable.other.object",
     "settings": {
-      "foreground": "#C5C8C6"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Variable other readwrite",
     "scope": "variable.other.readwrite",
     "settings": {
-      "foreground": "#C5C8C6"
+      "foreground": base.red.hex()
     }
   },
   {
     "name": "Variable parameter",
     "scope": "variable.parameter",
     "settings": {
-      "foreground": "#C5C8C6"
+      "foreground": base.red.hex()
     }
   }
 ]

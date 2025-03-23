@@ -8,7 +8,7 @@ export default () => {
     "type": "dark",
     "semanticHighlighting": true,
     "semanticTokenColors": semanticTokenColors,
-    // "tokenColors": textmateTokenColors,
+    "tokenColors": textmateTokenColors,
     "colors": {
       // Contrast colors
       "contrastActiveBorder"    : ui.border.primary.hex(),
