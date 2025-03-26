@@ -31,9 +31,9 @@ const bg = chroma(0x18211F)
 //// FOR UI ELEMENTS
 const ui = {
   panel: {
-    primary: new UiColor(bg, fg, base.cyan),
-    secondary: new UiColor(bg.darken(0.15), base.white, base.green),
-    tertiary: new UiColor(bg.darken(0.25), base.white, base.cyanBright)
+    primary: new UiColor(bg.darken(0.10), fg, base.cyan),
+    secondary: new UiColor(bg.darken(0.20), base.white, base.green),
+    tertiary: new UiColor(bg.darken(0.30), base.white, base.cyanBright)
   },
   bar: {
     primary: new UiColor(base.cyan, base.white, base.cyanBright),

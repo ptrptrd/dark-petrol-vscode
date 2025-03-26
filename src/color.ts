@@ -37,8 +37,8 @@ class UiColor {
 
     this.hovered = {
       foreground: foreground.brighten(0.30), 
-      background: background.alpha(0.5),
-      border: border.alpha(0.5),
+      background: background.brighten(0.30).alpha(0.5),
+      border: border.brighten(0.30).alpha(0.5),
     };
   }
 }
