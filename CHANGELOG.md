@@ -1,3 +1,10 @@
+# [0.1.0](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.19...0.1.0) (2025-03-26)
+
+
+### Features
+
+* rework color assignment and ci build process ([#35](https://github.com/ptrptrd/dark-petrol-vscode/issues/35)) ([f60bfdb](https://github.com/ptrptrd/dark-petrol-vscode/commit/f60bfdbc3ecb33ee84860f9f250e5d6146bad970))
+
 ## [0.0.19](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.18...0.0.19) (2024-02-25)
 
 
