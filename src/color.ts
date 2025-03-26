@@ -24,19 +24,19 @@ class UiColor {
     };
 
     this.active = {
-      foreground: foreground.brighten(0.25), 
-      background: background.brighten(0.25),
-      border: border.brighten(0.25)
+      foreground: foreground.brighten(0.15), 
+      background: background.brighten(0.15),
+      border: border.brighten(0.15)
     }
 
     this.inactive = {
-      foreground: foreground.darken(0.25), 
-      background: background.darken(0.25),
-      border: border.darken(0.25),
+      foreground: foreground.darken(0.15), 
+      background: background.darken(0.15),
+      border: border.darken(0.15),
     };
 
     this.hovered = {
-      foreground: foreground.brighten(0.5), 
+      foreground: foreground.brighten(0.30), 
       background: background.alpha(0.5),
       border: border.alpha(0.5),
     };
