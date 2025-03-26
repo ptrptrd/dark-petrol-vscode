@@ -31,14 +31,14 @@ const bg = chroma(0x18211F)
 //// FOR UI ELEMENTS
 const ui = {
   panel: {
-    primary: new UiColor(bg, fg, fg),
-    secondary: new UiColor(bg.darken(0.25), fg.darken(0.25), fg.darken(0.25)),
-    tertiary: new UiColor(bg.darken(0.25), fg.darken(0.25), fg.darken(0.25))
+    primary: new UiColor(bg, fg, base.cyan),
+    secondary: new UiColor(bg.darken(0.15), base.white, base.green),
+    tertiary: new UiColor(bg.darken(0.25), base.white, base.cyanBright)
   },
   bar: {
-    primary: new UiColor(base.black, base.white, base.white),
-    secondary: new UiColor(base.blackBright, base.white, base.white),
-    tertiary: new UiColor(base.cyan, base.white, base.white),
+    primary: new UiColor(base.cyan, base.white, base.cyanBright),
+    secondary: new UiColor(base.green, base.white, base.greenBright),
+    tertiary: new UiColor(base.black, base.white, base.blackBright),
   },
   dialog: {
     first: new UiColor(bg, fg, fg),
@@ -46,27 +46,27 @@ const ui = {
     third: new UiColor(base.cyan, base.white, base.white)
   },
   input: {
-    button: new UiColor(base.green, fg, fg),
-    checkbox: new UiColor(base.blue, fg, fg),
-    text: new UiColor(base.black, base.white, base.white),
+    button: new UiColor(base.green, base.white, base.greenBright),
+    checkbox: new UiColor(base.blue, base.white, base.blueBright),
+    text: new UiColor(base.black, base.white, base.blackBright),
   },
   git: {
-    added: new UiColor(base.black.brighten(50), base.blueBright, base.blueBright),
-    modified: new UiColor(base.black.brighten(50), base.greenBright, base.greenBright),
-    deleted: new UiColor(base.black.brighten(50), base.redBright, base.redBright),
-    conflicted: new UiColor(base.black.brighten(50), base.yellowBright, base.yellow),
-    untracked: new UiColor(base.black.brighten(50), base.whiteBright, base.whiteBright),
+    added: new UiColor(base.blue.darken(15), base.blueBright, base.blueBright),
+    modified: new UiColor(base.green.darken(15), base.greenBright, base.greenBright),
+    deleted: new UiColor(base.red.darken(15), base.redBright, base.redBright),
+    conflicted: new UiColor(base.yellow.darken(15), base.yellowBright, base.yellow),
+    untracked: new UiColor(base.white.darken(15), base.whiteBright, base.whiteBright),
   },
   border: {
-    primary: fg, 
-    secondary: fg.darken(50), 
-    tertiary: fg.darken(100)
+    primary: base.cyan, 
+    secondary: base.green, 
+    tertiary: base.cyanBright,
   },
   message: {
-    success: new UiColor(base.green, base.white),
-    info: new UiColor(base.blue, base.white),
-    warning: new UiColor(base.yellowBright, base.white),
-    error: new UiColor(base.red, base.white),
+    success: new UiColor(base.green, base.white, base.greenBright),
+    info: new UiColor(base.blue, base.white, base.blueBright),
+    warning: new UiColor(base.yellowBright, base.white, base.yellow),
+    error: new UiColor(base.red, base.white, base.redBright),
   }
 }
 
