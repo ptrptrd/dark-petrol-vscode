@@ -15,6 +15,10 @@ jobs:
     needs: package
     runs-on: ubuntu-latest
     steps:
+      - name: Download vsix from package
+        uses: actions/download-artifact@v4
+        with:
+          name: darkpetrol-extension
       - name: Publish to Visual Studio Marketplace
         uses: HaaLeo/publish-vscode-extension@v2
         with:
@@ -27,7 +31,7 @@ jobs:
     runs-on: ubuntu-latest
     steps: 
       - name: Download vsix from package
-        uses: actions/download-artifact@v3
+        uses: actions/download-artifact@v4
         with:
           name: darkpetrol-extension
       - name: Publish to Open VSX Registry
