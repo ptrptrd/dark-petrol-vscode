@@ -21,20 +21,22 @@ jobs:
       - uses: actions/checkout@v4
       - uses: actions/setup-node@v3
         with:
-          node-version: 16
+          node-version: 20
       - name: Set env
         run: echo "RELEASE_VERSION=${GITHUB_REF#refs/*/}" >> $GITHUB_ENV
+      - name: Install dependencies 
+        run: npm ci
       - name: Assign version as in tag
-        run: npm config set git-tag-version false
-          npm version $RELEASE_VERSION
+        run:  |
+          npm config set git-tag-version false
       - name: Package VSIX
         id: package-vsix
-        uses: HaaLeo/publish-vscode-extension@v1
+        uses: HaaLeo/publish-vscode-extension@v2
         with:
           pat: stub
           dryRun: true
       - name: Upload Extension Package as Artifact
-        uses: actions/upload-artifact@v2
+        uses: actions/upload-artifact@v4
         with:
           name: darkpetrol-extension
           path: ${{ steps.package-vsix.outputs.vsixpath }}
