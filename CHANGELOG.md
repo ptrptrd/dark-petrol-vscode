@@ -1,3 +1,10 @@
+## [0.1.1](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.1.0...0.1.1) (2025-06-28)
+
+
+### Bug Fixes
+
+* build json file when packaging ([#38](https://github.com/ptrptrd/dark-petrol-vscode/issues/38)) ([9ac161a](https://github.com/ptrptrd/dark-petrol-vscode/commit/9ac161aa17fbae744ea99b2dc3d1e91d58fb5c9a))
+
 # [0.1.0](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.0.19...0.1.0) (2025-03-26)
 
 
