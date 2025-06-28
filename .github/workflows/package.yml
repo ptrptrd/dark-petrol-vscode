@@ -29,6 +29,9 @@ jobs:
       - name: Assign version as in tag
         run:  |
           npm config set git-tag-version false
+      - name: Build .json file 
+        run: |
+          npx ts-node ${workspaceFolder}/src/build.ts --verbose
       - name: Package VSIX
         id: package-vsix
         uses: HaaLeo/publish-vscode-extension@v2
