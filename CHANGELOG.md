@@ -1,3 +1,10 @@
+## [0.1.3](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.1.2...0.1.3) (2025-07-20)
+
+
+### Bug Fixes
+
+* magnify brighten and darken value when creating color ([977a9ff](https://github.com/ptrptrd/dark-petrol-vscode/commit/977a9ff3401c27f370f76c8d3e29737449df0638))
+
 ## [0.1.2](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.1.1...0.1.2) (2025-07-20)
 
 
