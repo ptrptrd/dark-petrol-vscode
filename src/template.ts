@@ -236,7 +236,7 @@ export default () => {
       "editorMultiCursor.secondary.foreground"  : ui.panel.secondary.hovered.foreground.hex(),
       "editorMultiCursor.secondary.background"  : ui.panel.secondary.hovered.background.hex(),
       "editor.placeholder.foreground"           : ui.panel.primary.normal.foreground.hex(),
-      "editor.selectionBackground"              : ui.panel.primary.active.background.alpha(0.35).hex(),
+      "editor.selectionBackground"              : ui.panel.primary.active.foreground.alpha(0.35).hex(), 
       "editor.selectionForeground"              : ui.panel.primary.active.foreground.hex(),
       "editor.inactiveSelectionBackground"      : ui.panel.primary.inactive.background.alpha(0.35).hex(),
       "editor.selectionHighlightBackground"     : ui.panel.primary.hovered.background.alpha(0.35).hex(),
