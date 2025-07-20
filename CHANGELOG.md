@@ -1,3 +1,10 @@
+## [0.1.2](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.1.1...0.1.2) (2025-07-20)
+
+
+### Bug Fixes
+
+* add visible color for selection background ([#39](https://github.com/ptrptrd/dark-petrol-vscode/issues/39)) ([046301c](https://github.com/ptrptrd/dark-petrol-vscode/commit/046301ce881ed58f34e92675ce2bde7ee65c1e37))
+
 ## [0.1.1](https://github.com/ptrptrd/dark-petrol-vscode/compare/0.1.0...0.1.1) (2025-06-28)
 
 
